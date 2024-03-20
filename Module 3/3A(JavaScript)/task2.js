@@ -1,4 +1,6 @@
 
+console.log("JavaScript Fun Facts");
+
 /*
   JS Fun Facts!
 
