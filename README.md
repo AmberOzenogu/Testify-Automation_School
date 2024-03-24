@@ -1,2 +1,1 @@
-# Testify-Automation-School
-Learning about ci pipelines using Git and Jenkins
+# Testify-Automation_School
