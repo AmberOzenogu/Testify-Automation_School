@@ -1,8 +1,7 @@
-// Area of Rectangle
+// The Odd Ones
 
-function calculateAreaOfRectangle(length, width) {
-    const area = length * width;
-    console.log(area);
+for (let number = 1; number <= 20; number = number+1) {
+    if (number % 2 !== 0) {
+        console.log(number+ ' is an odd number');
+    }
 }
-
-calculateAreaOfRectangle(12, 5);
