@@ -1,7 +1,11 @@
-// The Odd Ones
+const side1 = 10
+const side2 = 12
+const side3 = 12
 
-for (let number = 1; number <= 20; number = number+1) {
-    if (number % 2 !== 0) {
-        console.log(number+ ' is an odd number');
-    }
+if (side1 === side2 && side2 === side3) {
+    console.log('Equilateral triangle')
+} else if (side1 === side2 || side1 === side3 || side2 === side3) {
+    console.log('Isosceles triangle')
+} else {
+    console.log('Scalene triangle')
 }

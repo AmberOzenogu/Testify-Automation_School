@@ -1,7 +1,9 @@
-const number = 11;
+//step 1
+const day = "Thursday";
+//step 2
+const position = 4;
+//step 3
+const output = "Today is " + day + ". It is the " + position + "th day of the week.";
 
-if (number % 2 === 0) {
-    console.log(number+ ' is even.')
-} else {
-    console.log(number+ ' is odd.')
-}
+//print output
+console.log(output);

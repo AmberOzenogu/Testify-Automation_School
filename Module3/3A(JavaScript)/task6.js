@@ -1,11 +1,7 @@
-const side1 = 10
-const side2 = 12
-const side3 = 12
+const number = 11;
 
-if (side1 === side2 && side2 === side3) {
-    console.log('Equilateral triangle')
-} else if (side1 === side2 || side1 === side3 || side2 === side3) {
-    console.log('Isosceles triangle')
+if (number % 2 === 0) {
+    console.log(number+ ' is even.')
 } else {
-    console.log('Scalene triangle')
+    console.log(number+ ' is odd.')
 }
