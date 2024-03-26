@@ -1,4 +1,4 @@
-// Area of Rectangle
+// Area of Rectangle 2
 
 function calculateAreaOfRectangle(length, width) {
     const area = length * width;
