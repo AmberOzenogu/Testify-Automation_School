@@ -1,4 +1,3 @@
-
 console.log("JavaScript Fun Facts");
 
 /*

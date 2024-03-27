@@ -1,4 +1,4 @@
-// Array
+// Array of best friends
 
 const friends = ['Becca', 'Rose', 'Winnie', 'Maureen', 'Cassie']
 
