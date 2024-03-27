@@ -1,4 +1,4 @@
-// if...else statements
+// if...else statements.
 
 const number = 11;
 
