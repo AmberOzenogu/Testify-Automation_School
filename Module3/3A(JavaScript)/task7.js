@@ -1,4 +1,4 @@
-// if...else...if statements
+// if...else...if statements.
 
 const side1 = 10
 const side2 = 12
