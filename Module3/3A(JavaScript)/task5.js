@@ -1,9 +1,9 @@
-//step 1
+//Step 1
 const day = "Thursday";
-//step 2
+//Step 2
 const position = 4;
-//step 3
+//Step 3
 const output = "Today is " + day + ". It is the " + position + "th day of the week.";
 
-//print output
+//Print output
 console.log(output);
