@@ -1,4 +1,4 @@
-// The Odd Ones
+// The Odd Ones.
 
 for (let number = 1; number <= 20; number = number+1) {
     if (number % 2 !== 0) {
