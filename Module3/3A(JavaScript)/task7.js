@@ -1,3 +1,5 @@
+// if...else...if statements
+
 const side1 = 10
 const side2 = 12
 const side3 = 12
