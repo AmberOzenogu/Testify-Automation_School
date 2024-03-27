@@ -1,3 +1,4 @@
+// Array : pick your bestfriend.
 
 const friends = ['Becca', 'Rose', 'Winnie', 'Maureen', 'Cassie']
 
