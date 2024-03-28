@@ -1,3 +1,3 @@
 // alert('Hello, World!');
 
-console.log("Task 4");
+console.log('Hello, World');
