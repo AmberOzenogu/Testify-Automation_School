@@ -1,0 +1,11 @@
+{
+  "name": "testify",
+  "version": "1.0.0",
+  "description": "My first node js program",
+  "main": "task16.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Amber Ozenogu",
+  "license": "ISC"
+}
