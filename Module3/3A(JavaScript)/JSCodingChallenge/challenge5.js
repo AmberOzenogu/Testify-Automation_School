@@ -1,6 +1,6 @@
 // Create a function that reverses an array.
 
-const myArray = [1, 3, 5, 7, 9];
+const myArray = [1, "White", 3, 5, "Lilac", 7, 9];
 
 // Function to reverse an array
 function reverseMyArray(array) {
