@@ -13,4 +13,4 @@ function sumArray(array) {
 const sum = sumArray(myArray);
 
 // console.log(myArray);
-console.log("Sum of numbers:", sum);
+console.log("Sum of numbers: " + sum);
