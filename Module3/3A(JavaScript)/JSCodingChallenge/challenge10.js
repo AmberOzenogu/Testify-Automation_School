@@ -16,4 +16,6 @@ function negativeNumbers(array) {
 }
 
 const positiveNumbers = negativeNumbers(numbers);
-console.log(positiveNumbers);
+
+console.log("My array", numbers);
+console.log("Positive numbers", positiveNumbers);
