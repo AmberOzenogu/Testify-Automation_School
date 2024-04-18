@@ -134,6 +134,13 @@
 					],
 					"path": [
 						"books"
+					],
+					"query": [
+						{
+							"key": "type",
+							"value": "non-fiction",
+							"disabled": true
+						}
 					]
 				}
 			},
@@ -193,7 +200,7 @@
 					"variable": [
 						{
 							"key": "bookId",
-							"value": ""
+							"value": "2"
 						}
 					]
 				}
@@ -384,11 +391,21 @@
 		{
 			"name": "Update an order",
 			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "4a98d0d00141b71d58b3045f520a28fe089fae90b2cea4640a6ccae14c588f1c",
+							"type": "string"
+						}
+					]
+				},
 				"method": "PATCH",
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "",
+					"raw": "{\r\n  \"customerName\": \"John\"\r\n}\r\n",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -408,7 +425,7 @@
 					"variable": [
 						{
 							"key": "orderId",
-							"value": ""
+							"value": "3ftDvvBJ0y9HkFM6AE4VF"
 						}
 					]
 				}
