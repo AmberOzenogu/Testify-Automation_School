@@ -1,7 +1,7 @@
 {
 	"info": {
-		"_postman_id": "e165e86a-3fc8-42f0-a70c-27339635586d",
-		"name": "Task 2",
+		"_postman_id": "f1992fcd-594d-4943-bd75-abde6c2d8673",
+		"name": "API Collection",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
 		"_exporter_id": "24228769"
 	},
@@ -69,7 +69,7 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n   \"clientName\": \"Janet\",\r\n   \"clientEmail\": \"janetdun@gmail.com\"\r\n}",
+					"raw": "{\r\n   \"clientName\": \"Sarah\",\r\n   \"clientEmail\": \"Sarahe@gmail.com\"\r\n}",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -125,6 +125,13 @@
 					],
 					"path": [
 						"books"
+					],
+					"query": [
+						{
+							"key": "type",
+							"value": "non-fiction",
+							"disabled": true
+						}
 					]
 				}
 			},
@@ -187,7 +194,7 @@
 					"variable": [
 						{
 							"key": "bookId",
-							"value": ""
+							"value": "2"
 						}
 					]
 				}
@@ -220,7 +227,7 @@
 					"bearer": [
 						{
 							"key": "token",
-							"value": "4a98d0d00141b71d58b3045f520a28fe089fae90b2cea4640a6ccae14c588f1c",
+							"value": "f029ce3ad63b067e42f46b2b93041536f387a7c285495c5dbcc41e403bf15517",
 							"type": "string"
 						}
 					]
@@ -235,7 +242,7 @@
 				],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n  \"bookId\": 1,\r\n  \"customerName\": \"Janet\"\r\n}",
+					"raw": "{\r\n  \"bookId\": 4,\r\n  \"customerName\": \"Sarah\"\r\n}",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -286,7 +293,7 @@
 					"bearer": [
 						{
 							"key": "token",
-							"value": "4a98d0d00141b71d58b3045f520a28fe089fae90b2cea4640a6ccae14c588f1c",
+							"value": "f029ce3ad63b067e42f46b2b93041536f387a7c285495c5dbcc41e403bf15517",
 							"type": "string"
 						}
 					]
@@ -346,7 +353,7 @@
 					"bearer": [
 						{
 							"key": "token",
-							"value": "4a98d0d00141b71d58b3045f520a28fe089fae90b2cea4640a6ccae14c588f1c",
+							"value": "f029ce3ad63b067e42f46b2b93041536f387a7c285495c5dbcc41e403bf15517",
 							"type": "string"
 						}
 					]
@@ -355,7 +362,7 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n  \"customerName\": \"Janet\"\r\n}",
+					"raw": "{\r\n  \"customerName\": \"Sarah\"\r\n}",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -377,7 +384,7 @@
 					"variable": [
 						{
 							"key": "orderId",
-							"value": "f8zKLwHvcWC1_TnN9IKY7"
+							"value": "iz7T6ZK9w0nCQnLNIspzh"
 						}
 					]
 				}
@@ -387,11 +394,21 @@
 		{
 			"name": "Update an order",
 			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "f029ce3ad63b067e42f46b2b93041536f387a7c285495c5dbcc41e403bf15517",
+							"type": "string"
+						}
+					]
+				},
 				"method": "PATCH",
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "",
+					"raw": "{\r\n  \"customerName\": \"Sammy\"\r\n}",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -414,7 +431,7 @@
 					"variable": [
 						{
 							"key": "orderId",
-							"value": ""
+							"value": "iz7T6ZK9w0nCQnLNIspzh"
 						}
 					]
 				}
@@ -447,7 +464,7 @@
 					"bearer": [
 						{
 							"key": "token",
-							"value": "4a98d0d00141b71d58b3045f520a28fe089fae90b2cea4640a6ccae14c588f1c",
+							"value": "f029ce3ad63b067e42f46b2b93041536f387a7c285495c5dbcc41e403bf15517",
 							"type": "string"
 						}
 					]
@@ -456,7 +473,7 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n  \"customerName\": \"Janet\"\r\n}",
+					"raw": "{\r\n  \"customerName\": \"Sammy\"\r\n}",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -478,7 +495,7 @@
 					"variable": [
 						{
 							"key": "orderId",
-							"value": "f8zKLwHvcWC1_TnN9IKY7"
+							"value": "iz7T6ZK9w0nCQnLNIspzh"
 						}
 					]
 				}
