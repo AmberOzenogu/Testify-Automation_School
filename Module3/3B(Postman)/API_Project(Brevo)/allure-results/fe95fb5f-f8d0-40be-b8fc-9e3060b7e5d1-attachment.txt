@@ -1,0 +1,9 @@
+{
+  "name": "Zieme Group",
+  "attributes": {
+    "domain": "https://Hortense.com",
+    "industry": "Fabric",
+    "owner": "662f7f448089f8129a3b9253"
+  }
+
+}

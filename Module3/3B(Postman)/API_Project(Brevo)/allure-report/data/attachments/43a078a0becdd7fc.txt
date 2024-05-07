@@ -1,0 +1,16 @@
+{
+  "name": "TO DO",
+  "taskTypeId": "662f7f459586446152859bcd",
+  "date": "2024-05-12T14:00:00+01:00",
+  "duration": 600000,
+  "notes": "In communication with client for resolution of queries.",
+  "done": false,
+  "assignToId": "662f7f448089f8129a3b9253",
+  "reminder": {
+    "value": 3,
+    "unit": "days",
+    "types": [
+      "email"
+    ]
+  }
+}

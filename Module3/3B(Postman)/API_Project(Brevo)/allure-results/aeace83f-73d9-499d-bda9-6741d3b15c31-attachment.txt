@@ -1,0 +1,13 @@
+{
+  "email": "elly@example.com",
+  "includeListIds": [
+    4
+  ],
+  "redirectionUrl": "http://requestb.in/173lyyx1",
+  "templateId": 3,
+  "attributes": {
+    "FNAME": "John",
+    "LNANE": "Smith"
+  }
+  
+}

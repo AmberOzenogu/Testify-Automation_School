@@ -1,0 +1,6 @@
+level: log, messages: [object Object]
+level: log, messages: [object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+level: log, messages: 25
+level: log, messages: 45
+level: log, messages: queued
+level: log, messages: TRANS-GLOBAL-CALC

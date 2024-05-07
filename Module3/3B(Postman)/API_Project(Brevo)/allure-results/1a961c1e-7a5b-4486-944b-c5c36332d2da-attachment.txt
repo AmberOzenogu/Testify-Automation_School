@@ -1,0 +1,1 @@
+{"id":7,"name":"MyList","startDate":"2023-11-07T21:57:56.582+01:00","endDate":"2024-05-07T21:57:56.582+02:00","totalBlacklisted":0,"totalSubscribers":1,"uniqueSubscribers":1,"folderId":3,"createdAt":"2024-05-06T23:02:41.000+02:00","campaignStats":[],"dynamicList":false}

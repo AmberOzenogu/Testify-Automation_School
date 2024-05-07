@@ -1,0 +1,144 @@
+{
+    "items": [
+        {
+            "id": "6634d79deaf4d40fb22a3bde",
+            "taskTypeId": "662f7f459586446152859bd0",
+            "name": "Task: Connect with client",
+            "contactsIds": null,
+            "dealsIds": null,
+            "companiesIds": null,
+            "priority": false,
+            "createdAt": "2024-05-03T12:46:08.617Z"
+        },
+        {
+            "id": "6634d76d65d5293e6a08ceec",
+            "taskTypeId": "662f7f459586446152859bcd",
+            "name": "TO DO",
+            "contactsIds": null,
+            "dealsIds": null,
+            "companiesIds": null,
+            "priority": false,
+            "createdAt": "2024-05-03T12:24:13.520Z"
+        },
+        {
+            "id": "6634d66ceaf4d40fb22a3bdd",
+            "taskTypeId": "662f7f459586446152859bcb",
+            "name": "Email",
+            "contactsIds": null,
+            "dealsIds": null,
+            "companiesIds": null,
+            "priority": false,
+            "createdAt": "2024-05-03T12:19:56.258Z"
+        },
+        {
+            "id": "6634d3943fdbf1daa62af6ce",
+            "taskTypeId": "662f7f459586446152859bce",
+            "name": "Meeting",
+            "contactsIds": [
+                3
+            ],
+            "dealsIds": [
+                "6632c70c1b934b73bd61a227"
+            ],
+            "companiesIds": [
+                "663380ef8a082c773b9dd539"
+            ],
+            "priority": true,
+            "createdAt": "2024-05-03T12:07:48.246Z"
+        },
+        {
+            "id": "6634d4ea986f0221466e31cc",
+            "taskTypeId": "662f7f459586446152859bce",
+            "name": "Task: Connect with client",
+            "contactsIds": null,
+            "dealsIds": null,
+            "companiesIds": null,
+            "priority": false,
+            "createdAt": "2024-05-03T12:13:30.836Z"
+        },
+        {
+            "id": "6634d4fc9fb7cd7ed91c3915",
+            "taskTypeId": "662f7f459586446152859bce",
+            "name": "Task: Connect with client",
+            "contactsIds": null,
+            "dealsIds": null,
+            "companiesIds": null,
+            "priority": false,
+            "createdAt": "2024-05-03T12:13:48.171Z"
+        },
+        {
+            "id": "6634d572a9d28c5eb30aecc8",
+            "taskTypeId": "662f7f459586446152859bcf",
+            "name": "Task: Connect with client",
+            "contactsIds": null,
+            "dealsIds": null,
+            "companiesIds": null,
+            "priority": false,
+            "createdAt": "2024-05-03T12:15:46.856Z"
+        },
+        {
+            "id": "6634d5b0d05416610f4e8006",
+            "taskTypeId": "662f7f459586446152859bd0",
+            "name": "Deadline",
+            "contactsIds": null,
+            "dealsIds": null,
+            "companiesIds": null,
+            "priority": false,
+            "createdAt": "2024-05-03T12:16:48.969Z"
+        },
+        {
+            "id": "6634d5d4b198aa741e50948a",
+            "taskTypeId": "662f7f459586446152859bcc",
+            "name": "Phone Call",
+            "contactsIds": null,
+            "dealsIds": null,
+            "companiesIds": null,
+            "priority": false,
+            "createdAt": "2024-05-03T12:17:25.026Z"
+        },
+        {
+            "id": "6634d5ed1a3f02625a23cf86",
+            "taskTypeId": "662f7f459586446152859bcb",
+            "name": "Email",
+            "contactsIds": null,
+            "dealsIds": null,
+            "companiesIds": null,
+            "priority": false,
+            "createdAt": "2024-05-03T12:17:49.707Z"
+        },
+        {
+            "id": "663395cde3dd05403025c413",
+            "taskTypeId": "662f7f459586446152859bcd",
+            "name": "To do",
+            "contactsIds": [],
+            "dealsIds": [
+                "663395cc90b47bf69a062d2b"
+            ],
+            "companiesIds": [],
+            "priority": false,
+            "createdAt": "2024-05-02T13:31:57.270Z"
+        },
+        {
+            "id": "6632a11496005975489897f2",
+            "taskTypeId": "662f7f459586446152859bcd",
+            "name": "To do",
+            "contactsIds": [],
+            "dealsIds": [
+                "6632a113d8ccc2aafe650116"
+            ],
+            "companiesIds": [],
+            "priority": false,
+            "createdAt": "2024-05-01T20:07:48.289Z"
+        }
+    ],
+    "pager": {
+        "current": 1,
+        "limit": 50,
+        "from": 0,
+        "to": 50,
+        "count": 12,
+        "total": 12,
+        "max": 1,
+        "totalStoredResults": 12
+    }
+}

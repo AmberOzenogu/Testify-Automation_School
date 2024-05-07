@@ -1,0 +1,17 @@
+{
+  "email": "Mathew_Goyette@yahoo.com",
+  "name": "Orn - Lang",
+  "ips": [
+    {
+      "domain": "dante.info",
+      "ip": "213.69.150.122",
+      "weight": 50
+    },
+    {
+      "domain": "kennedy.org",
+      "ip": "182.9.191.160",
+      "weight": 50
+    }
+  ],
+  "isActive": true
+}

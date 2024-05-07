@@ -1,0 +1,12 @@
+{
+    "id": "6632a11496005975489897f2",
+    "taskTypeId": "662f7f459586446152859bcd",
+    "name": "To do",
+    "contactsIds": [],
+    "dealsIds": [
+        "6632a113d8ccc2aafe650116"
+    ],
+    "companiesIds": [],
+    "priority": false,
+    "createdAt": "2024-05-01T20:07:48.289Z"
+}

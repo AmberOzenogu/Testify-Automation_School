@@ -1,0 +1,13 @@
+{
+  "sender": {
+    "name": "Wiza Inc",
+    "email": "bethany.klocko@hotmail.com"
+  },
+  "to": [
+    {
+      "email": "mauricio+unsubtest@sendinblue.com",
+      "name": "mauricio"
+    }
+  ],
+  "templateId": 69
+}

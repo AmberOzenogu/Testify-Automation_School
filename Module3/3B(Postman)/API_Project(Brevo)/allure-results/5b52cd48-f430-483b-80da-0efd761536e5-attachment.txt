@@ -1,0 +1,12 @@
+{
+  "text": "New Note : In communication with client for resolution of queries.",
+  "contactIds": [
+    3
+  ],
+  "dealIds": [
+    "663394dda3602a4b397a269e"
+  ],
+  "companyIds": [
+    "6632c6b60d80fe94af2710b4"
+  ]
+}

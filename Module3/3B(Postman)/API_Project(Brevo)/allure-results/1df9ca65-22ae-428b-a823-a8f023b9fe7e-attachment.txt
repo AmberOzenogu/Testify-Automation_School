@@ -1,0 +1,16 @@
+{
+  "sender":{
+    "name": "Wiza Inc",
+
+    "id": 3
+  },
+  "subject": "Thanks for your purchase !",
+  "templateName": "Order Confirmation - EN",
+  "tag": "OrderConfirmation",
+  "htmlContent": "The order n°xxxxx has been confirmed. Thanks for your purchase",
+  
+  "replyTo": "support@myshop.com",
+  "toField": "{FNAME} {LNAME}",
+  
+  "isActive": true
+}
