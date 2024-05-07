@@ -1,0 +1,3 @@
+{
+  "text": "Ongoing communication with client for resolution of queries."
+}

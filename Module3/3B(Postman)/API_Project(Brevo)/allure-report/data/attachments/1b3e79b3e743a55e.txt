@@ -1,0 +1,8 @@
+{
+  "name": "Company",
+  "attributes": {
+    "domain": "https://fabricco.com",
+    "industry": "fabric",
+    "owner": "662f7f448089f8129a3b9253"
+  }
+}

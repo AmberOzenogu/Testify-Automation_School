@@ -1,0 +1,887 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="API_Project_Brevo" tests="156" time="44.274">
+  <testsuite name="Sales CRM / Companies / Get all Companies" id="75657977-4ef4-4fc1-ab6b-091e4b06d6a6" timestamp="2024-05-07T19:47:27.357Z" tests="8" failures="0" errors="0" time="0.892">
+    <testcase name="The value of pager limit" time="0.892" classname="ApiProjectBrevo"/>
+    <testcase name="Body response includes industry string" time="0.892" classname="ApiProjectBrevo"/>
+    <testcase name="Body response includes attributes string" time="0.892" classname="ApiProjectBrevo"/>
+    <testcase name="Body response includes linkedContacts string" time="0.892" classname="ApiProjectBrevo"/>
+    <testcase name="Body response includes linkedContactsIds string" time="0.892" classname="ApiProjectBrevo"/>
+    <testcase name="Body response includes linkedDealsIds string" time="0.892" classname="ApiProjectBrevo"/>
+    <testcase name="Content-Type is present n headers" time="0.892" classname="ApiProjectBrevo"/>
+    <testcase name="Content-Encoding is present n headers" time="0.892" classname="ApiProjectBrevo"/>
+  </testsuite>
+  <testsuite name="Sales CRM / Companies / Create a company" id="056e0cd0-1382-4632-ae95-f96774529653" timestamp="2024-05-07T19:47:27.357Z" tests="3" failures="0" errors="0" time="0.415">
+    <testcase name="Body response includes id string" time="0.415" classname="ApiProjectBrevo"/>
+    <testcase name="Content-Type is present n headers" time="0.415" classname="ApiProjectBrevo"/>
+    <testcase name="Content-Length is present in headers" time="0.415" classname="ApiProjectBrevo"/>
+  </testsuite>
+  <testsuite name="Sales CRM / Companies / Get company attributes" id="f85f6bcc-0094-4b1c-9904-19786b4b1e0b" timestamp="2024-05-07T19:47:27.357Z" tests="7" failures="0" errors="0" time="0.295">
+    <testcase name="Body response includes required string" time="0.295" classname="ApiProjectBrevo"/>
+    <testcase name="Body response includes label string" time="0.295" classname="ApiProjectBrevo"/>
+    <testcase name="Body response includes attributeOptions string" time="0.295" classname="ApiProjectBrevo"/>
+    <testcase name="Body response includes attributeTypeName string" time="0.295" classname="ApiProjectBrevo"/>
+    <testcase name="Body response includes internalName string" time="0.295" classname="ApiProjectBrevo"/>
+    <testcase name="Content-Type is present n headers" time="0.295" classname="ApiProjectBrevo"/>
+    <testcase name="Content-Encoding is present n headers" time="0.295" classname="ApiProjectBrevo"/>
+  </testsuite>
+  <testsuite name="Sales CRM / Companies / Get a company" id="eeca8e10-2c11-4805-8490-0fd59e5a32bb" timestamp="2024-05-07T19:47:27.357Z" tests="7" failures="0" errors="0" time="0.416">
+    <testcase name="Test for company domain value" time="0.416" classname="ApiProjectBrevo"/>
+    <testcase name="Test for company industry value" time="0.416" classname="ApiProjectBrevo"/>
+    <testcase name="Test for company name" time="0.416" classname="ApiProjectBrevo"/>
+    <testcase name="Body response includes linkedContactsIds string" time="0.416" classname="ApiProjectBrevo"/>
+    <testcase name="Body response includes createdBy string" time="0.416" classname="ApiProjectBrevo"/>
+    <testcase name="Content-Type is present n headers" time="0.416" classname="ApiProjectBrevo"/>
+    <testcase name="Transfer-Encoding is present n headers" time="0.416" classname="ApiProjectBrevo"/>
+  </testsuite>
+  <testsuite name="Sales CRM / Companies / Link and Unlink company with contact and deal" id="954cfb09-99c0-4d77-ba8b-771d26cbbd6c" timestamp="2024-05-07T19:47:27.357Z" tests="3" failures="0" errors="0" time="0.434">
+    <testcase name="Empty body response" time="0.434" classname="ApiProjectBrevo"/>
+    <testcase name="Status code is 204" time="0.434" classname="ApiProjectBrevo"/>
+    <testcase name="Status code name has a No Content string" time="0.434" classname="ApiProjectBrevo"/>
+  </testsuite>
+  <testsuite name="Sales CRM / Companies / Update a company" id="068b34ab-81a2-405e-b367-a75acbcdef26" timestamp="2024-05-07T19:47:27.357Z" tests="3" failures="0" errors="0" time="0.349">
+    <testcase name="Empty body response" time="0.349" classname="ApiProjectBrevo"/>
+    <testcase name="Status code is 204" time="0.349" classname="ApiProjectBrevo"/>
+    <testcase name="Status code name has a No Content string" time="0.349" classname="ApiProjectBrevo"/>
+  </testsuite>
+  <testsuite name="Sales CRM / Companies / Delete a company" id="efafc844-0c26-4e0a-a741-eae4a242dd9f" timestamp="2024-05-07T19:47:27.357Z" tests="3" failures="0" errors="0" time="0.376">
+    <testcase name="Empty body response" time="0.376" classname="ApiProjectBrevo"/>
+    <testcase name="Status code is 204" time="0.376" classname="ApiProjectBrevo"/>
+    <testcase name="Status code name has a No Content string" time="0.376" classname="ApiProjectBrevo"/>
+  </testsuite>
+  <testsuite name="Sales CRM / Companies / Get pipeline stages" id="6881eba3-4a60-4496-a2e6-22160ce0d955" timestamp="2024-05-07T19:47:27.357Z" tests="9" failures="0" errors="0" time="0.218">
+    <testcase name="Verify the pipeline value" time="0.218" classname="ApiProjectBrevo"/>
+    <testcase name="Verify the pipeline name" time="0.218" classname="ApiProjectBrevo"/>
+    <testcase name="Body response includes pipeline attribute" time="0.218" classname="ApiProjectBrevo"/>
+    <testcase name="Body response includes pipeline_name attribute" time="0.218" classname="ApiProjectBrevo"/>
+    <testcase name="Body response includes Deals Pipeline string" time="0.218" classname="ApiProjectBrevo"/>
+    <testcase name="Body response includes New string" time="0.218" classname="ApiProjectBrevo"/>
+    <testcase name="Body response includes Qualifying string" time="0.218" classname="ApiProjectBrevo"/>
+    <testcase name="Content-Type is present n headers" time="0.218" classname="ApiProjectBrevo"/>
+    <testcase name="Content-Encoding is present n headers" time="0.218" classname="ApiProjectBrevo"/>
+  </testsuite>
+  <testsuite name="Sales CRM / Deals / Get all deals" id="59160cfa-5575-4d9f-bf95-1507ce0e229f" timestamp="2024-05-07T19:47:27.357Z" tests="8" failures="0" errors="0" time="0.319">
+    <testcase name="The value of pager limit" time="0.319" classname="ApiProjectBrevo"/>
+    <testcase name="Body response includes id attribute" time="0.319" classname="ApiProjectBrevo"/>
+    <testcase name="Body response includes deal_name attribute" time="0.319" classname="ApiProjectBrevo"/>
+    <testcase name="Body response includes deal_owner attribute" time="0.319" classname="ApiProjectBrevo"/>
+    <testcase name="Body response includes linkedContactsIds attribute" time="0.319" classname="ApiProjectBrevo"/>
+    <testcase name="Body response includes linkedCompaniesIds attribute" time="0.319" classname="ApiProjectBrevo"/>
+    <testcase name="Content-Encoding is present n headers" time="0.319" classname="ApiProjectBrevo"/>
+    <testcase name="Transfer-Encoding is present n headers" time="0.319" classname="ApiProjectBrevo"/>
+  </testsuite>
+  <testsuite name="Sales CRM / Deals / Create a deal" id="24631957-3635-4f56-bcad-a6e6b2b9f770" timestamp="2024-05-07T19:47:27.357Z" tests="3" failures="0" errors="0" time="0.382">
+    <testcase name="Body response includes id string" time="0.382" classname="ApiProjectBrevo"/>
+    <testcase name="Content-Type is present n headers" time="0.382" classname="ApiProjectBrevo"/>
+    <testcase name="Content-Length is present in headers" time="0.382" classname="ApiProjectBrevo"/>
+  </testsuite>
+  <testsuite name="Sales CRM / Deals / Get a deal" id="97bf28ad-58f8-4568-b73e-8aa497d16dbe" timestamp="2024-05-07T19:47:27.357Z" tests="8" failures="0" errors="0" time="0.374">
+    <testcase name="Test for deal_name" time="0.374" classname="ApiProjectBrevo"/>
+    <testcase name="Test for deal amount value" time="0.374" classname="ApiProjectBrevo"/>
+    <testcase name="Test for deal creation date" time="0.374" classname="ApiProjectBrevo"/>
+    <testcase name="Body response includes linkedCompaniesIds attribute" time="0.374" classname="ApiProjectBrevo"/>
+    <testcase name="Body response includes createdBy attribute" time="0.374" classname="ApiProjectBrevo"/>
+    <testcase name="Body response includes linkedContactsIds attribute" time="0.374" classname="ApiProjectBrevo"/>
+    <testcase name="Content-Encoding is present n headers" time="0.374" classname="ApiProjectBrevo"/>
+    <testcase name="Transfer-Encoding is present n headers" time="0.374" classname="ApiProjectBrevo"/>
+  </testsuite>
+  <testsuite name="Sales CRM / Deals / Link and Unlink a deal with contacts and companies" id="70f4b9d9-2d00-48e3-8354-b737c75821e9" timestamp="2024-05-07T19:47:27.357Z" tests="3" failures="0" errors="0" time="0.593">
+    <testcase name="Empty body response" time="0.593" classname="ApiProjectBrevo"/>
+    <testcase name="Status code is 204" time="0.593" classname="ApiProjectBrevo"/>
+    <testcase name="Status code name has a No Content string" time="0.593" classname="ApiProjectBrevo"/>
+  </testsuite>
+  <testsuite name="Sales CRM / Deals / Get deal attributes" id="6fc207cf-9cfa-4319-91a7-28fc9bb58066" timestamp="2024-05-07T19:47:27.357Z" tests="8" failures="0" errors="0" time="0.403">
+    <testcase name="Body response includes internalName string" time="0.403" classname="ApiProjectBrevo"/>
+    <testcase name="Body response includes label string" time="0.403" classname="ApiProjectBrevo"/>
+    <testcase name="Body response includes attributeOptions string" time="0.403" classname="ApiProjectBrevo"/>
+    <testcase name="Body response includes attributeTypeName string" time="0.403" classname="ApiProjectBrevo"/>
+    <testcase name="Body response includes isRequired string" time="0.403" classname="ApiProjectBrevo"/>
+    <testcase name="Content-Type is present n headers" time="0.403" classname="ApiProjectBrevo"/>
+    <testcase name="Content-Encoding is present n headers" time="0.403" classname="ApiProjectBrevo"/>
+    <testcase name="Server is present n headers" time="0.403" classname="ApiProjectBrevo"/>
+  </testsuite>
+  <testsuite name="Sales CRM / Deals / Update a deal" id="33928259-5c19-43e6-948e-7ee76afb03f9" timestamp="2024-05-07T19:47:27.357Z" tests="3" failures="0" errors="0" time="0.388">
+    <testcase name="Empty body response" time="0.388" classname="ApiProjectBrevo"/>
+    <testcase name="Status code is 204" time="0.388" classname="ApiProjectBrevo"/>
+    <testcase name="Status code name has a No Content string" time="0.388" classname="ApiProjectBrevo"/>
+  </testsuite>
+  <testsuite name="Sales CRM / Deals / Delete a deal" id="92c45eb8-5125-4ffc-af21-4d7c56be89a7" timestamp="2024-05-07T19:47:27.357Z" tests="3" failures="0" errors="0" time="0.339">
+    <testcase name="Empty body response" time="0.339" classname="ApiProjectBrevo"/>
+    <testcase name="Status code is 204" time="0.339" classname="ApiProjectBrevo"/>
+    <testcase name="Status code name has a No Content string" time="0.339" classname="ApiProjectBrevo"/>
+  </testsuite>
+  <testsuite name="Sales CRM / Tasks / Get all tasks" id="a59b87a1-2e0c-41d4-8a09-45c8229b4e97" timestamp="2024-05-07T19:47:27.357Z" tests="10" failures="0" errors="0" time="0.478">
+    <testcase name="The value of pager limit" time="0.478" classname="ApiProjectBrevo"/>
+    <testcase name="Body response includes id attribute" time="0.478" classname="ApiProjectBrevo"/>
+    <testcase name="Body response includes taskTypeId attribute" time="0.478" classname="ApiProjectBrevo"/>
+    <testcase name="Body response includes name attribute" time="0.478" classname="ApiProjectBrevo"/>
+    <testcase name="Body response includes contactsIds attribute" time="0.478" classname="ApiProjectBrevo"/>
+    <testcase name="Body response includes dealsIds attribute" time="0.478" classname="ApiProjectBrevo"/>
+    <testcase name="Body response includes companiesIds attribute" time="0.478" classname="ApiProjectBrevo"/>
+    <testcase name="Content-Type is present n headers" time="0.478" classname="ApiProjectBrevo"/>
+    <testcase name="Content-Encoding is present n headers" time="0.478" classname="ApiProjectBrevo"/>
+    <testcase name="Transfer-Encoding is present n headers" time="0.478" classname="ApiProjectBrevo"/>
+  </testsuite>
+  <testsuite name="Sales CRM / Tasks / Get all task types" id="900fc53c-d2b7-4f39-a5ed-d17fc481515b" timestamp="2024-05-07T19:47:27.357Z" tests="5" failures="0" errors="0" time="0.370">
+    <testcase name="Body response includes id attribute" time="0.370" classname="ApiProjectBrevo"/>
+    <testcase name="Body response includes title attribute" time="0.370" classname="ApiProjectBrevo"/>
+    <testcase name="Content-Type is present in headers" time="0.370" classname="ApiProjectBrevo"/>
+    <testcase name="Content-Encoding is present in headers" time="0.370" classname="ApiProjectBrevo"/>
+    <testcase name="Connection is present in headers" time="0.370" classname="ApiProjectBrevo"/>
+  </testsuite>
+  <testsuite name="Sales CRM / Tasks / Create a task" id="639e86ef-acd6-44f5-ae15-01ac39f61833" timestamp="2024-05-07T19:47:27.357Z" tests="4" failures="0" errors="0" time="0.436">
+    <testcase name="Body response includes id attribute" time="0.436" classname="ApiProjectBrevo"/>
+    <testcase name="Body response includes priority attribute" time="0.436" classname="ApiProjectBrevo"/>
+    <testcase name="Transfer-Encoding is present in headers" time="0.436" classname="ApiProjectBrevo"/>
+    <testcase name="Connection is present in headers" time="0.436" classname="ApiProjectBrevo"/>
+  </testsuite>
+  <testsuite name="Sales CRM / Tasks / Get a task" id="9e0de004-41d9-4d4e-b00b-fd688bf43392" timestamp="2024-05-07T19:47:27.357Z" tests="9" failures="0" errors="0" time="0.352">
+    <testcase name="Test for task Type Id" time="0.352" classname="ApiProjectBrevo"/>
+    <testcase name="Test for task name" time="0.352" classname="ApiProjectBrevo"/>
+    <testcase name="Test for task priority value" time="0.352" classname="ApiProjectBrevo"/>
+    <testcase name="Test for deal creation date" time="0.352" classname="ApiProjectBrevo"/>
+    <testcase name="Body response includes companiesIds attribute" time="0.352" classname="ApiProjectBrevo"/>
+    <testcase name="Body response includes createdAt attribute" time="0.352" classname="ApiProjectBrevo"/>
+    <testcase name="Body response includes contactsIds attribute" time="0.352" classname="ApiProjectBrevo"/>
+    <testcase name="Content-Encoding is present n headers" time="0.352" classname="ApiProjectBrevo"/>
+    <testcase name="Transfer-Encoding is present n headers" time="0.352" classname="ApiProjectBrevo"/>
+  </testsuite>
+  <testsuite name="Sales CRM / Tasks / Update a task" id="05b32f55-f35e-43b8-8b0a-02207bca3783" timestamp="2024-05-07T19:47:27.357Z" tests="3" failures="0" errors="0" time="0.535">
+    <testcase name="Empty body response" time="0.535" classname="ApiProjectBrevo"/>
+    <testcase name="Status code is 204" time="0.535" classname="ApiProjectBrevo"/>
+    <testcase name="Status code name has a No Content string" time="0.535" classname="ApiProjectBrevo"/>
+  </testsuite>
+  <testsuite name="Sales CRM / Tasks / Delete a task" id="17f94d92-9e2d-412d-801d-ffaee1b9aba8" timestamp="2024-05-07T19:47:27.357Z" tests="3" failures="0" errors="0" time="0.600">
+    <testcase name="Empty body response" time="0.600" classname="ApiProjectBrevo"/>
+    <testcase name="Status code is 204" time="0.600" classname="ApiProjectBrevo"/>
+    <testcase name="Status code name has a No Content string" time="0.600" classname="ApiProjectBrevo"/>
+  </testsuite>
+  <testsuite name="Sales CRM / Notes / Get all notes" id="3d59487c-7736-4e7c-ae25-fecdfee9ce19" timestamp="2024-05-07T19:47:27.357Z" tests="10" failures="0" errors="0" time="0.218">
+    <testcase name="Body response includes id attribute" time="0.218" classname="ApiProjectBrevo"/>
+    <testcase name="Body response includes text string" time="0.218" classname="ApiProjectBrevo"/>
+    <testcase name="Body response includes author attribute" time="0.218" classname="ApiProjectBrevo"/>
+    <testcase name="Body response includes name attribute" time="0.218" classname="ApiProjectBrevo"/>
+    <testcase name="Body response includes contactIds attribute" time="0.218" classname="ApiProjectBrevo"/>
+    <testcase name="Body response includes dealIds attribute" time="0.218" classname="ApiProjectBrevo"/>
+    <testcase name="Body response includes companyIds attribute" time="0.218" classname="ApiProjectBrevo"/>
+    <testcase name="Content-Type is present n headers" time="0.218" classname="ApiProjectBrevo"/>
+    <testcase name="Content-Encoding is present n headers" time="0.218" classname="ApiProjectBrevo"/>
+    <testcase name="Transfer-Encoding is present n headers" time="0.218" classname="ApiProjectBrevo"/>
+  </testsuite>
+  <testsuite name="Sales CRM / Notes / Create a note" id="572af599-bd3d-4f7e-b0a7-f7bd80c18e8a" timestamp="2024-05-07T19:47:27.357Z" tests="8" failures="0" errors="0" time="0.369">
+    <testcase name="Body response includes id string" time="0.369" classname="ApiProjectBrevo"/>
+    <testcase name="Body response includes text string" time="0.369" classname="ApiProjectBrevo"/>
+    <testcase name="Body response includes contactIds attribute" time="0.369" classname="ApiProjectBrevo"/>
+    <testcase name="Body response includes companyIds attribute" time="0.369" classname="ApiProjectBrevo"/>
+    <testcase name="Body response includes dealIds attribute" time="0.369" classname="ApiProjectBrevo"/>
+    <testcase name="Body response includes authorId attribute" time="0.369" classname="ApiProjectBrevo"/>
+    <testcase name="Content-Type is present n headers" time="0.369" classname="ApiProjectBrevo"/>
+    <testcase name="Content-Length is present in headers" time="0.369" classname="ApiProjectBrevo"/>
+  </testsuite>
+  <testsuite name="Sales CRM / Notes / Get a note" id="7291599f-c81f-418b-9b50-f7202bf97c5b" timestamp="2024-05-07T19:47:27.357Z" tests="8" failures="0" errors="0" time="0.257">
+    <testcase name="Body response includes id string" time="0.257" classname="ApiProjectBrevo"/>
+    <testcase name="Body response includes text string" time="0.257" classname="ApiProjectBrevo"/>
+    <testcase name="Body response includes contactIds attribute" time="0.257" classname="ApiProjectBrevo"/>
+    <testcase name="Body response includes companyIds attribute" time="0.257" classname="ApiProjectBrevo"/>
+    <testcase name="Body response includes dealIds attribute" time="0.257" classname="ApiProjectBrevo"/>
+    <testcase name="Body response includes authorId attribute" time="0.257" classname="ApiProjectBrevo"/>
+    <testcase name="Body response includes author attribute" time="0.257" classname="ApiProjectBrevo"/>
+    <testcase name="Content-Type is present n headers" time="0.257" classname="ApiProjectBrevo"/>
+  </testsuite>
+  <testsuite name="Sales CRM / Notes / Update a note" id="64f933d5-a80f-4d3f-9ef3-bcfacd8c9470" timestamp="2024-05-07T19:47:27.357Z" tests="7" failures="0" errors="0" time="0.226">
+    <testcase name="Body response includes text string" time="0.226" classname="ApiProjectBrevo"/>
+    <testcase name="Body response includes contactIds attribute" time="0.226" classname="ApiProjectBrevo"/>
+    <testcase name="Body response includes companyIds attribute" time="0.226" classname="ApiProjectBrevo"/>
+    <testcase name="Body response includes dealIds attribute" time="0.226" classname="ApiProjectBrevo"/>
+    <testcase name="Body response includes authorId attribute" time="0.226" classname="ApiProjectBrevo"/>
+    <testcase name="Content-Type is present n headers" time="0.226" classname="ApiProjectBrevo"/>
+    <testcase name="Content-Encoding is present in headers" time="0.226" classname="ApiProjectBrevo"/>
+  </testsuite>
+  <testsuite name="Sales CRM / Notes / Delete a note" id="966fd48b-98dd-4757-89ef-87aef161adb3" timestamp="2024-05-07T19:47:27.357Z" tests="3" failures="0" errors="0" time="0.210">
+    <testcase name="Empty body response" time="0.210" classname="ApiProjectBrevo"/>
+    <testcase name="Status code is 204" time="0.210" classname="ApiProjectBrevo"/>
+    <testcase name="Status code name has a No Content string" time="0.210" classname="ApiProjectBrevo"/>
+  </testsuite>
+  <testsuite name="Sales CRM / Files / Get all files" id="18323f6d-ce6a-4e68-915e-e6d701f88e80" timestamp="2024-05-07T19:47:27.357Z" tests="10" failures="0" errors="0" time="0.243">
+    <testcase name="Body response includes id attribute" time="0.243" classname="ApiProjectBrevo"/>
+    <testcase name="Body response includes size string" time="0.243" classname="ApiProjectBrevo"/>
+    <testcase name="Body response includes authorId attribute" time="0.243" classname="ApiProjectBrevo"/>
+    <testcase name="Body response includes name attribute" time="0.243" classname="ApiProjectBrevo"/>
+    <testcase name="Body response includes contactId attribute" time="0.243" classname="ApiProjectBrevo"/>
+    <testcase name="Body response includes dealId attribute" time="0.243" classname="ApiProjectBrevo"/>
+    <testcase name="Body response includes companyId attribute" time="0.243" classname="ApiProjectBrevo"/>
+    <testcase name="Content-Encoding is present in headers" time="0.243" classname="ApiProjectBrevo"/>
+    <testcase name="Transfer-Encoding is present in headers" time="0.243" classname="ApiProjectBrevo"/>
+    <testcase name="Connection is present in headers" time="0.243" classname="ApiProjectBrevo"/>
+  </testsuite>
+  <testsuite name="Sales CRM / Files / Upload a file" id="e808b77a-4f34-46a2-a5b6-76f484673f1a" timestamp="2024-05-07T19:47:27.357Z" tests="9" failures="6" errors="0" time="0.241">
+    <testcase name="Test that response body includes the file ID" time="0.241" classname="ApiProjectBrevo"/>
+    <testcase name="Test for the file name value" time="0.241" classname="ApiProjectBrevo">
+      <failure type="AssertionFailure" message="expected undefined to deeply equal 'Jenkins.png'">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: c291d6f8-8c87-44f0-b2b2-1382ac7c9f35.]]>
+        <![CDATA[Collection name: API_Project_Brevo.]]>
+        <![CDATA[Request name: Sales CRM / Files / Upload a file.]]>
+        <![CDATA[Test description: Test for the file name value.]]>
+        <![CDATA[Error message: expected undefined to deeply equal 'Jenkins.png'.]]>
+        <![CDATA[Stacktrace: AssertionError: expected undefined to deeply equal 'Jenkins.png'
+   at Object.eval sandbox-script.js:2:28).]]>
+      </failure>
+    </testcase>
+    <testcase name="Test for the authorId value" time="0.241" classname="ApiProjectBrevo">
+      <failure type="AssertionFailure" message="expected undefined to deeply equal '662f7f448089f8129a3b9253'">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: c291d6f8-8c87-44f0-b2b2-1382ac7c9f35.]]>
+        <![CDATA[Collection name: API_Project_Brevo.]]>
+        <![CDATA[Request name: Sales CRM / Files / Upload a file.]]>
+        <![CDATA[Test description: Test for the authorId value.]]>
+        <![CDATA[Error message: expected undefined to deeply equal '662f7f448089f8129a3b9253'.]]>
+        <![CDATA[Stacktrace: AssertionError: expected undefined to deeply equal '662f7f448089f8129a3b9253'
+   at Object.eval sandbox-script.js:3:28).]]>
+      </failure>
+    </testcase>
+    <testcase name="Test for the companyId value" time="0.241" classname="ApiProjectBrevo">
+      <failure type="AssertionFailure" message="expected undefined to deeply equal '66338af6a3602a4b397a265c'">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: c291d6f8-8c87-44f0-b2b2-1382ac7c9f35.]]>
+        <![CDATA[Collection name: API_Project_Brevo.]]>
+        <![CDATA[Request name: Sales CRM / Files / Upload a file.]]>
+        <![CDATA[Test description: Test for the companyId value.]]>
+        <![CDATA[Error message: expected undefined to deeply equal '66338af6a3602a4b397a265c'.]]>
+        <![CDATA[Stacktrace: AssertionError: expected undefined to deeply equal '66338af6a3602a4b397a265c'
+   at Object.eval sandbox-script.js:4:28).]]>
+      </failure>
+    </testcase>
+    <testcase name="Test for the dealId value" time="0.241" classname="ApiProjectBrevo">
+      <failure type="AssertionFailure" message="expected undefined to deeply equal '663394dda3602a4b397a269e'">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: c291d6f8-8c87-44f0-b2b2-1382ac7c9f35.]]>
+        <![CDATA[Collection name: API_Project_Brevo.]]>
+        <![CDATA[Request name: Sales CRM / Files / Upload a file.]]>
+        <![CDATA[Test description: Test for the dealId value.]]>
+        <![CDATA[Error message: expected undefined to deeply equal '663394dda3602a4b397a269e'.]]>
+        <![CDATA[Stacktrace: AssertionError: expected undefined to deeply equal '663394dda3602a4b397a269e'
+   at Object.eval sandbox-script.js:5:28).]]>
+      </failure>
+    </testcase>
+    <testcase name="Test for the contactId value" time="0.241" classname="ApiProjectBrevo">
+      <failure type="AssertionFailure" message="expected undefined to deeply equal 3">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: c291d6f8-8c87-44f0-b2b2-1382ac7c9f35.]]>
+        <![CDATA[Collection name: API_Project_Brevo.]]>
+        <![CDATA[Request name: Sales CRM / Files / Upload a file.]]>
+        <![CDATA[Test description: Test for the contactId value.]]>
+        <![CDATA[Error message: expected undefined to deeply equal 3.]]>
+        <![CDATA[Stacktrace: AssertionError: expected undefined to deeply equal 3
+   at Object.eval sandbox-script.js:6:28).]]>
+      </failure>
+    </testcase>
+    <testcase name="Content-Type is present in headers" time="0.241" classname="ApiProjectBrevo"/>
+    <testcase name="Transfer-Encoding is present in headers" time="0.241" classname="ApiProjectBrevo">
+      <failure type="AssertionFailure" message="expected response to have header with key 'Transfer-Encoding'">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: c291d6f8-8c87-44f0-b2b2-1382ac7c9f35.]]>
+        <![CDATA[Collection name: API_Project_Brevo.]]>
+        <![CDATA[Request name: Sales CRM / Files / Upload a file.]]>
+        <![CDATA[Test description: Transfer-Encoding is present in headers.]]>
+        <![CDATA[Error message: expected response to have header with key 'Transfer-Encoding'.]]>
+        <![CDATA[Stacktrace: AssertionError: expected response to have header with key 'Transfer-Encoding'
+   at Object.eval sandbox-script.js:8:28).]]>
+      </failure>
+    </testcase>
+    <testcase name="Connection is present in headers" time="0.241" classname="ApiProjectBrevo"/>
+  </testsuite>
+  <testsuite name="Sales CRM / Files / Download a file" id="30590646-f6f0-46cf-bf91-f8a6d0fefd83" timestamp="2024-05-07T19:47:27.357Z" tests="3" failures="0" errors="0" time="0.918">
+    <testcase name="Status code is 200" time="0.918" classname="ApiProjectBrevo"/>
+    <testcase name="Content-Type is present in headers" time="0.918" classname="ApiProjectBrevo"/>
+    <testcase name="Connection is present in headers" time="0.918" classname="ApiProjectBrevo"/>
+  </testsuite>
+  <testsuite name="Sales CRM / Files / Get file details" id="3201391c-8568-4763-9b51-dccdbb7e74cb" timestamp="2024-05-07T19:47:27.357Z" tests="9" failures="0" errors="0" time="0.252">
+    <testcase name="Test for the file id value" time="0.252" classname="ApiProjectBrevo"/>
+    <testcase name="Test for the file name value" time="0.252" classname="ApiProjectBrevo"/>
+    <testcase name="Verify the file size" time="0.252" classname="ApiProjectBrevo"/>
+    <testcase name="Test for the companyId value" time="0.252" classname="ApiProjectBrevo"/>
+    <testcase name="Test for the dealId value" time="0.252" classname="ApiProjectBrevo"/>
+    <testcase name="Test for the contactId value" time="0.252" classname="ApiProjectBrevo"/>
+    <testcase name="Content-Type is present in headers" time="0.252" classname="ApiProjectBrevo"/>
+    <testcase name="Content-Encoding is present in headers" time="0.252" classname="ApiProjectBrevo"/>
+    <testcase name="Transfer-Encoding is present in headers" time="0.252" classname="ApiProjectBrevo"/>
+  </testsuite>
+  <testsuite name="Sales CRM / Files / Delete a file" id="0f99db3b-f5d2-4be1-8787-5b7956c23b07" timestamp="2024-05-07T19:47:27.357Z" tests="3" failures="3" errors="0" time="0.191">
+    <testcase name="Empty body response" time="0.191" classname="ApiProjectBrevo">
+      <failure type="AssertionFailure" message="expected response body to equal '' but got 'handle HTTP: deletefiles: get request…'">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: c291d6f8-8c87-44f0-b2b2-1382ac7c9f35.]]>
+        <![CDATA[Collection name: API_Project_Brevo.]]>
+        <![CDATA[Request name: Sales CRM / Files / Delete a file.]]>
+        <![CDATA[Test description: Empty body response.]]>
+        <![CDATA[Error message: expected response body to equal '' but got 'handle HTTP: deletefiles: get request…'.]]>
+        <![CDATA[Stacktrace: AssertionError: expected response body to equal '' but got 'handle HTTP: deletefiles: get request…'
+   at Object.eval sandbox-script.js:1:31).]]>
+      </failure>
+    </testcase>
+    <testcase name="Status code is 204" time="0.191" classname="ApiProjectBrevo">
+      <failure type="AssertionFailure" message="expected response to have status code 204 but got 400">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: c291d6f8-8c87-44f0-b2b2-1382ac7c9f35.]]>
+        <![CDATA[Collection name: API_Project_Brevo.]]>
+        <![CDATA[Request name: Sales CRM / Files / Delete a file.]]>
+        <![CDATA[Test description: Status code is 204.]]>
+        <![CDATA[Error message: expected response to have status code 204 but got 400.]]>
+        <![CDATA[Stacktrace: AssertionError: expected response to have status code 204 but got 400
+   at Object.eval sandbox-script.js:2:31).]]>
+      </failure>
+    </testcase>
+    <testcase name="Status code name has a No Content string" time="0.191" classname="ApiProjectBrevo">
+      <failure type="AssertionFailure" message="expected response to have status reason 'No Content' but got 'Bad Request'">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: c291d6f8-8c87-44f0-b2b2-1382ac7c9f35.]]>
+        <![CDATA[Collection name: API_Project_Brevo.]]>
+        <![CDATA[Request name: Sales CRM / Files / Delete a file.]]>
+        <![CDATA[Test description: Status code name has a No Content string.]]>
+        <![CDATA[Error message: expected response to have status reason 'No Content' but got 'Bad Request'.]]>
+        <![CDATA[Stacktrace: AssertionError: expected response to have status reason 'No Content' but got 'Bad Request'
+   at Object.eval sandbox-script.js:3:31).]]>
+      </failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="Marketing / Email Campaigns / Create an email campaign" id="d3b9f99f-58b5-495f-963f-295ed6a7269d" timestamp="2024-05-07T19:47:27.357Z" tests="0" failures="0" errors="0" time="0.203"/>
+  <testsuite name="Marketing / Email Campaigns / Get an email campaign report" id="7a5ff7c1-13d8-4d3b-b89b-39233ea56f6d" timestamp="2024-05-07T19:47:27.357Z" tests="0" failures="0" errors="0" time="0.160"/>
+  <testsuite name="Marketing / Email Campaigns / Update an email campaign" id="4106e7e1-76f4-4252-849d-1dc2b414c106" timestamp="2024-05-07T19:47:27.357Z" tests="0" failures="0" errors="0" time="0.165"/>
+  <testsuite name="Marketing / Email Campaigns / Delete an email campaign" id="c1281be6-99be-44d5-a385-db475b78d756" timestamp="2024-05-07T19:47:27.357Z" tests="0" failures="0" errors="0" time="0.169"/>
+  <testsuite name="Marketing / Email Campaigns / Send an email campaign immediately, based on campaignId" id="3f011bed-4491-4b5a-9080-0a1560d1c1a6" timestamp="2024-05-07T19:47:27.357Z" tests="0" failures="0" errors="0" time="0.235"/>
+  <testsuite name="Marketing / Email Campaigns / Send an email campaign to your test list" id="79470d45-8fa1-43ce-ad10-dd040c9a1ce1" timestamp="2024-05-07T19:47:27.357Z" tests="0" failures="0" errors="0" time="0.184"/>
+  <testsuite name="Marketing / Email Campaigns / Update an email campaign status" id="1deec9c2-5814-496b-b571-c3a8de835c9e" timestamp="2024-05-07T19:47:27.357Z" tests="0" failures="0" errors="0" time="0.205"/>
+  <testsuite name="Marketing / Email Campaigns / Send the report of a campaign" id="2171ef5d-d275-4cd1-896b-7327d88837a3" timestamp="2024-05-07T19:47:27.357Z" tests="0" failures="0" errors="0" time="0.214"/>
+  <testsuite name="Marketing / Email Campaigns / Get an A/B test email campaign results" id="ca35d93f-ddb6-454b-ae92-5b0462a380c9" timestamp="2024-05-07T19:47:27.357Z" tests="0" failures="0" errors="0" time="0.200"/>
+  <testsuite name="Marketing / Email Campaigns / Get a shared template url" id="ae3c1394-92fb-4b06-a4b5-a4620847cb98" timestamp="2024-05-07T19:47:27.357Z" tests="0" failures="0" errors="0" time="0.205"/>
+  <testsuite name="Marketing / Email Campaigns / Export the recipients of an email campaign" id="c0dc0177-d5a6-4dfc-882d-f70295d7c5c5" timestamp="2024-05-07T19:47:27.357Z" tests="0" failures="0" errors="0" time="0.190"/>
+  <testsuite name="Marketing / Email Campaigns / Return all your created email campaigns" id="df27823a-5e3e-4fad-8753-0d4c665640f8" timestamp="2024-05-07T19:47:27.357Z" tests="2" failures="0" errors="0" time="0.198">
+    <testcase name="Body matches string" time="0.198" classname="ApiProjectBrevo"/>
+    <testcase name="Content-Type is present" time="0.198" classname="ApiProjectBrevo"/>
+  </testsuite>
+  <testsuite name="Marketing / Email Campaigns / Upload an image to your account's image gallery" id="d16c9f84-9b53-4b2d-a393-7d3005fb3016" timestamp="2024-05-07T19:47:27.357Z" tests="0" failures="0" errors="0" time="0.342"/>
+  <testsuite name="Marketing / SMS Campaigns / Returns the information for all your created SMS campaigns" id="dd409122-f4c9-40d1-a1dd-750bd32808e6" timestamp="2024-05-07T19:47:27.357Z" tests="2" failures="0" errors="0" time="0.229">
+    <testcase name="Body matches string" time="0.229" classname="ApiProjectBrevo"/>
+  </testsuite>
+  <testsuite name="Marketing / SMS Campaigns / Creates an SMS campaign" id="b07371f9-a85a-45f9-adac-04132747b619" timestamp="2024-05-07T19:47:27.357Z" tests="2" failures="0" errors="0" time="0.278">
+    <testcase name="Body matches string" time="0.278" classname="ApiProjectBrevo"/>
+    <testcase name="Content-Type is present" time="0.278" classname="ApiProjectBrevo"/>
+  </testsuite>
+  <testsuite name="Marketing / SMS Campaigns / Get an SMS campaign" id="20ed741c-c3c4-470b-8c93-0d02a2888200" timestamp="2024-05-07T19:47:27.357Z" tests="2" failures="0" errors="0" time="0.202">
+    <testcase name="verify the id value" time="0.202" classname="ApiProjectBrevo"/>
+    <testcase name="Body matches string" time="0.202" classname="ApiProjectBrevo"/>
+  </testsuite>
+  <testsuite name="Marketing / SMS Campaigns / Update an SMS campaign" id="6e3d7cd6-855a-4b5f-bb41-07cc6ec3aeae" timestamp="2024-05-07T19:47:27.357Z" tests="1" failures="0" errors="0" time="0.215">
+    <testcase name="Empty response body" time="0.215" classname="ApiProjectBrevo"/>
+  </testsuite>
+  <testsuite name="Marketing / SMS Campaigns / Delete an SMS campaign" id="bb4e9fdd-ae93-4b2e-8e9e-01cc86efef58" timestamp="2024-05-07T19:47:27.357Z" tests="1" failures="0" errors="0" time="0.210">
+    <testcase name="Empty response body" time="0.210" classname="ApiProjectBrevo"/>
+  </testsuite>
+  <testsuite name="Marketing / SMS Campaigns / Send your SMS campaign immediately" id="abcf3619-b0c8-47b3-9c10-48954c4671c4" timestamp="2024-05-07T19:47:27.357Z" tests="0" failures="0" errors="0" time="0.256"/>
+  <testsuite name="Marketing / SMS Campaigns / Update a campaign's status" id="e902e5d4-eda6-460d-9741-7d65de249b9b" timestamp="2024-05-07T19:47:27.357Z" tests="0" failures="0" errors="0" time="0.192"/>
+  <testsuite name="Marketing / SMS Campaigns / Send a test SMS campaign" id="c6601df3-7d92-49f6-bc10-18a0df07336b" timestamp="2024-05-07T19:47:27.357Z" tests="0" failures="0" errors="0" time="0.203"/>
+  <testsuite name="Marketing / SMS Campaigns / Export an SMS campaign's recipients" id="a28c4238-bc46-418b-b0a5-a13acc6bac71" timestamp="2024-05-07T19:47:27.357Z" tests="1" failures="0" errors="0" time="0.237">
+    <testcase name="Content-Type is present" time="0.237" classname="ApiProjectBrevo"/>
+  </testsuite>
+  <testsuite name="Marketing / SMS Campaigns / Send an SMS campaign's report" id="80e2a716-fad8-4f7a-9cd0-347926c49bce" timestamp="2024-05-07T19:47:27.357Z" tests="1" failures="0" errors="0" time="0.240">
+    <testcase name="CF-RAY is present" time="0.240" classname="ApiProjectBrevo"/>
+  </testsuite>
+  <testsuite name="Conversations / Messages / Send a message as an agent" id="2d7b01b8-606f-40c9-b320-b1b4e2bb8f90" timestamp="2024-05-07T19:47:27.357Z" tests="5" failures="0" errors="0" time="0.400">
+    <testcase name="Verify the message type" time="0.400" classname="ApiProjectBrevo"/>
+    <testcase name="Verify the text message" time="0.400" classname="ApiProjectBrevo"/>
+    <testcase name="Content-Type is present in headers" time="0.400" classname="ApiProjectBrevo"/>
+    <testcase name="Content-Encoding is present in headers" time="0.400" classname="ApiProjectBrevo"/>
+    <testcase name="Transfer-Encoding is present in headers" time="0.400" classname="ApiProjectBrevo"/>
+  </testsuite>
+  <testsuite name="Conversations / Messages / Get a message" id="639b25e6-d7a3-49b8-afcd-47105d39f694" timestamp="2024-05-07T19:47:27.357Z" tests="4" failures="0" errors="0" time="0.302">
+    <testcase name="Verify the message id" time="0.302" classname="ApiProjectBrevo"/>
+    <testcase name="Verify the message type" time="0.302" classname="ApiProjectBrevo"/>
+    <testcase name="Verify the text message" time="0.302" classname="ApiProjectBrevo"/>
+    <testcase name="Transfer-Encoding is present in headers" time="0.302" classname="ApiProjectBrevo"/>
+  </testsuite>
+  <testsuite name="Conversations / Messages / Update a message sent by an agent" id="8251d476-f188-4e3e-9ba3-d933f22b875f" timestamp="2024-05-07T19:47:27.357Z" tests="4" failures="0" errors="0" time="0.275">
+    <testcase name="Verify the text message" time="0.275" classname="ApiProjectBrevo"/>
+    <testcase name="Content-Type is present in headers" time="0.275" classname="ApiProjectBrevo"/>
+    <testcase name="Content-Encoding is present in headers" time="0.275" classname="ApiProjectBrevo"/>
+    <testcase name="Connection is present in headers" time="0.275" classname="ApiProjectBrevo"/>
+  </testsuite>
+  <testsuite name="Conversations / Messages / Delete a message sent by an agent" id="5053df9a-d5b1-4c26-a355-643f8162c8e9" timestamp="2024-05-07T19:47:27.357Z" tests="3" failures="0" errors="0" time="0.350">
+    <testcase name="Empty body response" time="0.350" classname="ApiProjectBrevo"/>
+    <testcase name="Status code is 204" time="0.350" classname="ApiProjectBrevo"/>
+    <testcase name="Status code name has a No Content string" time="0.350" classname="ApiProjectBrevo"/>
+  </testsuite>
+  <testsuite name="Conversations / Status / Sets agent’s status to online for 2-3 minutes" id="c8fd5cf9-c751-4c99-bf6d-6f8b255765f9" timestamp="2024-05-07T19:47:27.357Z" tests="4" failures="0" errors="0" time="0.239">
+    <testcase name="Test for empty response body" time="0.239" classname="ApiProjectBrevo"/>
+    <testcase name="Status code is 201" time="0.239" classname="ApiProjectBrevo"/>
+    <testcase name="CF-RAY is present in headers" time="0.239" classname="ApiProjectBrevo"/>
+    <testcase name="Server is present in headers" time="0.239" classname="ApiProjectBrevo"/>
+  </testsuite>
+  <testsuite name="Conversations / Pushed messages / Send an automated message to a visitor" id="43d5a975-9562-4e66-8af3-bfa2b05b9801" timestamp="2024-05-07T19:47:27.357Z" tests="5" failures="0" errors="0" time="0.258">
+    <testcase name="Test that response body includes the automated message ID" time="0.258" classname="ApiProjectBrevo"/>
+    <testcase name="Test for the automated message text value" time="0.258" classname="ApiProjectBrevo"/>
+    <testcase name="Test for the visitorId value" time="0.258" classname="ApiProjectBrevo"/>
+    <testcase name="Connection is present in headers" time="0.258" classname="ApiProjectBrevo"/>
+    <testcase name="CF-RAY is present in headers" time="0.258" classname="ApiProjectBrevo"/>
+  </testsuite>
+  <testsuite name="Conversations / Pushed messages / Get an automated message" id="3d2693d1-cb59-4532-8b52-1a6bb2ebfb69" timestamp="2024-05-07T19:47:27.357Z" tests="11" failures="0" errors="0" time="0.255">
+    <testcase name="Verify the automated message id" time="0.255" classname="ApiProjectBrevo"/>
+    <testcase name="Verify the automated message type" time="0.255" classname="ApiProjectBrevo"/>
+    <testcase name="Verify the automated message text" time="0.255" classname="ApiProjectBrevo"/>
+    <testcase name="Verify the automated message visitorId" time="0.255" classname="ApiProjectBrevo"/>
+    <testcase name="Verify the automated message agentId" time="0.255" classname="ApiProjectBrevo"/>
+    <testcase name="Verify the automated message createdAt value" time="0.255" classname="ApiProjectBrevo"/>
+    <testcase name="Verify the automated message isPushed value" time="0.255" classname="ApiProjectBrevo"/>
+    <testcase name="Content-Type is present in headers" time="0.255" classname="ApiProjectBrevo"/>
+    <testcase name="Content-Encoding is present in headers" time="0.255" classname="ApiProjectBrevo"/>
+    <testcase name="Transfer-Encoding is present in headers" time="0.255" classname="ApiProjectBrevo"/>
+    <testcase name="CF-RAY is present in headers" time="0.255" classname="ApiProjectBrevo"/>
+  </testsuite>
+  <testsuite name="Conversations / Pushed messages / Update an automated message" id="69424bd9-caaf-4314-bb2e-1522d29335df" timestamp="2024-05-07T19:47:27.357Z" tests="8" failures="0" errors="0" time="0.415">
+    <testcase name="Verify the automated message type" time="0.415" classname="ApiProjectBrevo"/>
+    <testcase name="Verify the automated message text" time="0.415" classname="ApiProjectBrevo"/>
+    <testcase name="Verify the automated message visitorId" time="0.415" classname="ApiProjectBrevo"/>
+    <testcase name="Verify the automated message agentId" time="0.415" classname="ApiProjectBrevo"/>
+    <testcase name="Verify the automated message isPushed value" time="0.415" classname="ApiProjectBrevo"/>
+    <testcase name="Content-Type is present in headers" time="0.415" classname="ApiProjectBrevo"/>
+    <testcase name="Transfer-Encoding is present in headers" time="0.415" classname="ApiProjectBrevo"/>
+    <testcase name="CF-RAY is present in headers" time="0.415" classname="ApiProjectBrevo"/>
+  </testsuite>
+  <testsuite name="Conversations / Pushed messages / Delete an automated message" id="f3065aad-b34f-4779-9806-222034525532" timestamp="2024-05-07T19:47:27.357Z" tests="3" failures="0" errors="0" time="0.285">
+    <testcase name="Empty body response" time="0.285" classname="ApiProjectBrevo"/>
+    <testcase name="Status code is 204" time="0.285" classname="ApiProjectBrevo"/>
+    <testcase name="Status code name has a No Content string" time="0.285" classname="ApiProjectBrevo"/>
+  </testsuite>
+  <testsuite name="Contact management / Contacts / Get all the contacts" id="404e727a-6a73-4af9-826a-01b6b6058654" timestamp="2024-05-07T19:47:27.357Z" tests="14" failures="0" errors="0" time="0.220">
+    <testcase name="Body response includes id attribute" time="0.220" classname="ApiProjectBrevo"/>
+    <testcase name="Body response includes email attribute" time="0.220" classname="ApiProjectBrevo"/>
+    <testcase name="Body response includes emailBlacklisted attribute" time="0.220" classname="ApiProjectBrevo"/>
+    <testcase name="Body response includes smsBlacklisted attribute" time="0.220" classname="ApiProjectBrevo"/>
+    <testcase name="Body response includes createdAt attribute" time="0.220" classname="ApiProjectBrevo"/>
+    <testcase name="Body response includes modifiedAt attribute" time="0.220" classname="ApiProjectBrevo"/>
+    <testcase name="Body response includes listIds attribute" time="0.220" classname="ApiProjectBrevo"/>
+    <testcase name="Body response includes listUnsubscribed attribute" time="0.220" classname="ApiProjectBrevo"/>
+    <testcase name="Body response includes LASTNAME attribute" time="0.220" classname="ApiProjectBrevo"/>
+    <testcase name="Body response includes FIRSTNAME attribute" time="0.220" classname="ApiProjectBrevo"/>
+    <testcase name="Body response includes SMS attribute" time="0.220" classname="ApiProjectBrevo"/>
+    <testcase name="Content-Encoding is present in headers" time="0.220" classname="ApiProjectBrevo"/>
+    <testcase name="Transfer-Encoding is present in headers" time="0.220" classname="ApiProjectBrevo"/>
+    <testcase name="Connection is present in headers" time="0.220" classname="ApiProjectBrevo"/>
+  </testsuite>
+  <testsuite name="Contact management / Contacts / Create a contact" id="abe108e9-f117-4892-aaa0-0c2c1a8a02e4" timestamp="2024-05-07T19:47:27.357Z" tests="4" failures="0" errors="0" time="0.337">
+    <testcase name="Body response includes id attribute" time="0.337" classname="ApiProjectBrevo"/>
+    <testcase name="Content-Type is present in headers" time="0.337" classname="ApiProjectBrevo"/>
+    <testcase name="CF-RAY is present in headers" time="0.337" classname="ApiProjectBrevo"/>
+    <testcase name="Content-Length is present in headers" time="0.337" classname="ApiProjectBrevo"/>
+  </testsuite>
+  <testsuite name="Contact management / Contacts / Create Contact via DOI (Double-Opt-In) Flow" id="39271654-5d5f-4ed1-b37a-1202e774af73" timestamp="2024-05-07T19:47:27.357Z" tests="0" failures="0" errors="0" time="0.217"/>
+  <testsuite name="Contact management / Contacts / Update multiple contacts" id="2f2af9b9-6be1-4750-9997-2035791f50d7" timestamp="2024-05-07T19:47:27.357Z" tests="0" failures="0" errors="0" time="0.179"/>
+  <testsuite name="Contact management / Contacts / Export contacts" id="39f93c7b-08dc-44b2-a5c9-a49c6e85a815" timestamp="2024-05-07T19:47:27.357Z" tests="2" failures="0" errors="0" time="0.712">
+    <testcase name="Body matches string" time="0.712" classname="ApiProjectBrevo"/>
+    <testcase name="Content-Type is present" time="0.712" classname="ApiProjectBrevo"/>
+  </testsuite>
+  <testsuite name="Contact management / Contacts / Import contacts" id="865241fe-e472-4be8-86e0-11a3db0af44e" timestamp="2024-05-07T19:47:27.357Z" tests="0" failures="0" errors="0" time="0.244"/>
+  <testsuite name="Contact management / Contacts / Get a contact's details" id="ca9398f8-3a7a-4fbb-be7a-62c86f7d4b0c" timestamp="2024-05-07T19:47:27.357Z" tests="16" failures="0" errors="0" time="0.299">
+    <testcase name="Verify the contact id" time="0.299" classname="ApiProjectBrevo"/>
+    <testcase name="Verify the contact email" time="0.299" classname="ApiProjectBrevo"/>
+    <testcase name="Test if the contact is emailBlacklisted" time="0.299" classname="ApiProjectBrevo"/>
+    <testcase name="Test if the contact is smsBlacklisted" time="0.299" classname="ApiProjectBrevo"/>
+    <testcase name="Verify the contact createdAt value" time="0.299" classname="ApiProjectBrevo"/>
+    <testcase name="Body response includes id attribute" time="0.299" classname="ApiProjectBrevo"/>
+    <testcase name="Body response includes email attribute" time="0.299" classname="ApiProjectBrevo"/>
+    <testcase name="Body response includes emailBlacklisted attribute" time="0.299" classname="ApiProjectBrevo"/>
+    <testcase name="Body response includes smsBlacklisted attribute" time="0.299" classname="ApiProjectBrevo"/>
+    <testcase name="Body response includes createdAt attribute" time="0.299" classname="ApiProjectBrevo"/>
+    <testcase name="Body response includes modifiedAt attribute" time="0.299" classname="ApiProjectBrevo"/>
+    <testcase name="Body response includes listIds attribute" time="0.299" classname="ApiProjectBrevo"/>
+    <testcase name="Body response includes LASTNAME attribute" time="0.299" classname="ApiProjectBrevo"/>
+    <testcase name="Body response includes FIRSTNAME attribute" time="0.299" classname="ApiProjectBrevo"/>
+    <testcase name="Body response includes SMS attribute" time="0.299" classname="ApiProjectBrevo"/>
+    <testcase name="Content-Encoding is present in headers" time="0.299" classname="ApiProjectBrevo"/>
+  </testsuite>
+  <testsuite name="Contact management / Contacts / Update a contact" id="a134aa3f-a061-4c01-a1d0-8823a85686b2" timestamp="2024-05-07T19:47:27.357Z" tests="6" failures="0" errors="0" time="0.248">
+    <testcase name="Empty body response" time="0.248" classname="ApiProjectBrevo"/>
+    <testcase name="Status code is 204" time="0.248" classname="ApiProjectBrevo"/>
+    <testcase name="Status code name has a No Content string" time="0.248" classname="ApiProjectBrevo"/>
+    <testcase name="Content-Type is present in headers" time="0.248" classname="ApiProjectBrevo"/>
+    <testcase name="CF-RAY is present in headers" time="0.248" classname="ApiProjectBrevo"/>
+    <testcase name="Server is present in headers" time="0.248" classname="ApiProjectBrevo"/>
+  </testsuite>
+  <testsuite name="Contact management / Contacts / Delete a contact" id="671225c2-27a7-4157-a193-aa0f16220e03" timestamp="2024-05-07T19:47:27.357Z" tests="6" failures="0" errors="0" time="0.243">
+    <testcase name="Empty body response" time="0.243" classname="ApiProjectBrevo"/>
+    <testcase name="Status code is 204" time="0.243" classname="ApiProjectBrevo"/>
+    <testcase name="Status code name has a No Content string" time="0.243" classname="ApiProjectBrevo"/>
+    <testcase name="vary is present in headers" time="0.243" classname="ApiProjectBrevo"/>
+    <testcase name="CF-RAY is present in headers" time="0.243" classname="ApiProjectBrevo"/>
+    <testcase name="Connection is present in headers" time="0.243" classname="ApiProjectBrevo"/>
+  </testsuite>
+  <testsuite name="Contact management / Contacts / Get email campaigns' statistics for a contact" id="7e0bc99b-d9f2-4d64-b848-251c374988b3" timestamp="2024-05-07T19:47:27.357Z" tests="3" failures="0" errors="0" time="0.325">
+    <testcase name="Status code is 200" time="0.325" classname="ApiProjectBrevo"/>
+    <testcase name="Status code name has a OK string" time="0.325" classname="ApiProjectBrevo"/>
+    <testcase name="Response time is less than 1000ms" time="0.325" classname="ApiProjectBrevo"/>
+  </testsuite>
+  <testsuite name="Contact management / Folders / Get all folders" id="c0cd13f0-0443-4561-8f06-dd131e641353" timestamp="2024-05-07T19:47:27.357Z" tests="10" failures="0" errors="0" time="0.456">
+    <testcase name="Body response includes id attribute" time="0.456" classname="ApiProjectBrevo"/>
+    <testcase name="Body response includes name attribute" time="0.456" classname="ApiProjectBrevo"/>
+    <testcase name="Body response includes uniqueSubscribers attribute" time="0.456" classname="ApiProjectBrevo"/>
+    <testcase name="Body response includes totalSubscribers attribute" time="0.456" classname="ApiProjectBrevo"/>
+    <testcase name="Body response includes totalBlacklisted attribute" time="0.456" classname="ApiProjectBrevo"/>
+    <testcase name="Body response includes folders attribute" time="0.456" classname="ApiProjectBrevo"/>
+    <testcase name="Body response includes folders count attribute" time="0.456" classname="ApiProjectBrevo"/>
+    <testcase name="Content-Type is present in headers" time="0.456" classname="ApiProjectBrevo"/>
+    <testcase name="Transfer-Encoding is present in headers" time="0.456" classname="ApiProjectBrevo"/>
+    <testcase name="Connection is present in headers" time="0.456" classname="ApiProjectBrevo"/>
+  </testsuite>
+  <testsuite name="Contact management / Folders / Create a folder" id="81f46c29-3b27-4a93-a34a-81e8d1eb9f70" timestamp="2024-05-07T19:47:27.357Z" tests="5" failures="0" errors="0" time="0.269">
+    <testcase name="Body response includes id attribute" time="0.269" classname="ApiProjectBrevo"/>
+    <testcase name="Content-Type is present in headers" time="0.269" classname="ApiProjectBrevo"/>
+    <testcase name="CF-RAY is present in headers" time="0.269" classname="ApiProjectBrevo"/>
+    <testcase name="Content-Length is present in headers" time="0.269" classname="ApiProjectBrevo"/>
+    <testcase name="Connection is present in headers" time="0.269" classname="ApiProjectBrevo"/>
+  </testsuite>
+  <testsuite name="Contact management / Folders / Returns a folder's details" id="4b85ac4d-2db6-44b1-9688-674ef9f6207e" timestamp="2024-05-07T19:47:27.357Z" tests="7" failures="0" errors="0" time="0.240">
+    <testcase name="Verify the folder's id" time="0.240" classname="ApiProjectBrevo"/>
+    <testcase name="Verify the folder's name" time="0.240" classname="ApiProjectBrevo"/>
+    <testcase name="Body response includes totalBlacklisted attribute" time="0.240" classname="ApiProjectBrevo"/>
+    <testcase name="Body response includes uniqueSubscribers attribute" time="0.240" classname="ApiProjectBrevo"/>
+    <testcase name="Body response includes totalSubscribers attribute" time="0.240" classname="ApiProjectBrevo"/>
+    <testcase name="Content-Encoding is present in headers" time="0.240" classname="ApiProjectBrevo"/>
+    <testcase name="Transfer-Encoding is present in headers" time="0.240" classname="ApiProjectBrevo"/>
+  </testsuite>
+  <testsuite name="Contact management / Folders / Get lists in a folder" id="da798dd6-0466-4c8f-b285-aaa3b64e2470" timestamp="2024-05-07T19:47:27.357Z" tests="7" failures="0" errors="0" time="0.224">
+    <testcase name="Status code is 200" time="0.224" classname="ApiProjectBrevo"/>
+    <testcase name="Status code name has a OK string" time="0.224" classname="ApiProjectBrevo"/>
+    <testcase name="Response time is less than 600ms" time="0.224" classname="ApiProjectBrevo"/>
+    <testcase name="vary is present in headers" time="0.224" classname="ApiProjectBrevo"/>
+    <testcase name="CF-RAY is present in headers" time="0.224" classname="ApiProjectBrevo"/>
+    <testcase name="Server is present in headers" time="0.224" classname="ApiProjectBrevo"/>
+    <testcase name="Connection is present in headers" time="0.224" classname="ApiProjectBrevo"/>
+  </testsuite>
+  <testsuite name="Contact management / Folders / Update a folder" id="bba139a2-b5ce-4157-945f-272fbb664071" timestamp="2024-05-07T19:47:27.357Z" tests="7" failures="0" errors="0" time="0.274">
+    <testcase name="Empty body response" time="0.274" classname="ApiProjectBrevo"/>
+    <testcase name="Status code is 204" time="0.274" classname="ApiProjectBrevo"/>
+    <testcase name="Status code name has a No Content string" time="0.274" classname="ApiProjectBrevo"/>
+    <testcase name="vary is present in headers" time="0.274" classname="ApiProjectBrevo"/>
+    <testcase name="CF-RAY is present in headers" time="0.274" classname="ApiProjectBrevo"/>
+    <testcase name="Server is present in headers" time="0.274" classname="ApiProjectBrevo"/>
+    <testcase name="Connection is present in headers" time="0.274" classname="ApiProjectBrevo"/>
+  </testsuite>
+  <testsuite name="Contact management / Folders / Delete a folder (and all its lists)" id="3a25b954-3d6b-46c5-9663-3fe4d1e06a4f" timestamp="2024-05-07T19:47:27.357Z" tests="6" failures="0" errors="0" time="0.438">
+    <testcase name="Empty body response" time="0.438" classname="ApiProjectBrevo"/>
+    <testcase name="Status code is 204" time="0.438" classname="ApiProjectBrevo"/>
+    <testcase name="Status code name has a No Content string" time="0.438" classname="ApiProjectBrevo"/>
+    <testcase name="vary is present in headers" time="0.438" classname="ApiProjectBrevo"/>
+    <testcase name="CF-RAY is present in headers" time="0.438" classname="ApiProjectBrevo"/>
+    <testcase name="Server is present in headers" time="0.438" classname="ApiProjectBrevo"/>
+  </testsuite>
+  <testsuite name="Contact management / Lists / Get all the lists" id="29ed95bc-9383-4da8-af06-754016e53a6c" timestamp="2024-05-07T19:47:27.357Z" tests="11" failures="0" errors="0" time="0.259">
+    <testcase name="Body response includes id attribute" time="0.259" classname="ApiProjectBrevo"/>
+    <testcase name="Body response includes name attribute" time="0.259" classname="ApiProjectBrevo"/>
+    <testcase name="Body response includes folderId attribute" time="0.259" classname="ApiProjectBrevo"/>
+    <testcase name="Body response includes uniqueSubscribers attribute" time="0.259" classname="ApiProjectBrevo"/>
+    <testcase name="Body response includes totalSubscribers attribute" time="0.259" classname="ApiProjectBrevo"/>
+    <testcase name="Body response includes totalBlacklisted attribute" time="0.259" classname="ApiProjectBrevo"/>
+    <testcase name="Body response includes lists attribute" time="0.259" classname="ApiProjectBrevo"/>
+    <testcase name="Body response includes folders count attribute" time="0.259" classname="ApiProjectBrevo"/>
+    <testcase name="Content-Type is present in headers" time="0.259" classname="ApiProjectBrevo"/>
+    <testcase name="Content-Encoding is present in headers" time="0.259" classname="ApiProjectBrevo"/>
+    <testcase name="Transfer-Encoding is present in headers" time="0.259" classname="ApiProjectBrevo"/>
+  </testsuite>
+  <testsuite name="Contact management / Lists / Get a list's details" id="017e0c61-113f-4355-a3c9-a8f563e4e5fa" timestamp="2024-05-07T19:47:27.357Z" tests="8" failures="0" errors="0" time="0.272">
+    <testcase name="Verify the list's id" time="0.272" classname="ApiProjectBrevo"/>
+    <testcase name="Verify the list's name" time="0.272" classname="ApiProjectBrevo"/>
+    <testcase name="Body response includes totalBlacklisted attribute" time="0.272" classname="ApiProjectBrevo"/>
+    <testcase name="Body response includes uniqueSubscribers attribute" time="0.272" classname="ApiProjectBrevo"/>
+    <testcase name="Body response includes totalSubscribers attribute" time="0.272" classname="ApiProjectBrevo"/>
+    <testcase name="Content-Type is present in headers" time="0.272" classname="ApiProjectBrevo"/>
+    <testcase name="Transfer-Encoding is present in headers" time="0.272" classname="ApiProjectBrevo"/>
+    <testcase name="Connection is present in headers" time="0.272" classname="ApiProjectBrevo"/>
+  </testsuite>
+  <testsuite name="Contact management / Lists / Create a list" id="ecea767e-8d75-4ce6-ab70-ca45c445070d" timestamp="2024-05-07T19:47:27.357Z" tests="5" failures="0" errors="0" time="0.584">
+    <testcase name="Body response includes id attribute" time="0.584" classname="ApiProjectBrevo"/>
+    <testcase name="Content-Type is present in headers" time="0.584" classname="ApiProjectBrevo"/>
+    <testcase name="CF-RAY is present in headers" time="0.584" classname="ApiProjectBrevo"/>
+    <testcase name="Content-Length is present in headers" time="0.584" classname="ApiProjectBrevo"/>
+    <testcase name="Connection is present in headers" time="0.584" classname="ApiProjectBrevo"/>
+  </testsuite>
+  <testsuite name="Contact management / Lists / Add existing contacts to a list" id="ebd82c86-4dc8-4280-a0b8-13518859a676" timestamp="2024-05-07T19:47:27.357Z" tests="5" failures="0" errors="0" time="0.311">
+    <testcase name="Body response includes contacts attribute" time="0.311" classname="ApiProjectBrevo"/>
+    <testcase name="Body response includes success attribute" time="0.311" classname="ApiProjectBrevo"/>
+    <testcase name="Body response includes contact's email" time="0.311" classname="ApiProjectBrevo"/>
+    <testcase name="Content-Type is present in headers" time="0.311" classname="ApiProjectBrevo"/>
+    <testcase name="CF-RAY is present in headers" time="0.311" classname="ApiProjectBrevo"/>
+  </testsuite>
+  <testsuite name="Contact management / Lists / Get contacts in a list" id="076e1e87-c76e-41bd-97dc-db88a50fc2f6" timestamp="2024-05-07T19:47:27.357Z" tests="6" failures="0" errors="0" time="0.217">
+    <testcase name="Verify the contact's email" time="0.217" classname="ApiProjectBrevo"/>
+    <testcase name="Verify the contact's id" time="0.217" classname="ApiProjectBrevo"/>
+    <testcase name="Verify the count" time="0.217" classname="ApiProjectBrevo"/>
+    <testcase name="Content-Type is present in headers" time="0.217" classname="ApiProjectBrevo"/>
+    <testcase name="Content-Encoding is present in headers" time="0.217" classname="ApiProjectBrevo"/>
+    <testcase name="Transfer-Encoding is present in headers" time="0.217" classname="ApiProjectBrevo"/>
+  </testsuite>
+  <testsuite name="Contact management / Lists / Delete a contact from a list" id="7b5947a2-0f7a-418f-b966-73573e943beb" timestamp="2024-05-07T19:47:27.357Z" tests="5" failures="0" errors="0" time="0.634">
+    <testcase name="Body response includes contacts attribute" time="0.634" classname="ApiProjectBrevo"/>
+    <testcase name="Body response includes success attribute" time="0.634" classname="ApiProjectBrevo"/>
+    <testcase name="Body response includes contact's email" time="0.634" classname="ApiProjectBrevo"/>
+    <testcase name="Content-Type is present in headers" time="0.634" classname="ApiProjectBrevo"/>
+    <testcase name="Connection is present in headers" time="0.634" classname="ApiProjectBrevo"/>
+  </testsuite>
+  <testsuite name="Contact management / Lists / Update a list" id="eae9e58e-bc22-4031-9455-0faa657f1e0f" timestamp="2024-05-07T19:47:27.357Z" tests="7" failures="0" errors="0" time="0.318">
+    <testcase name="Empty body response" time="0.318" classname="ApiProjectBrevo"/>
+    <testcase name="Status code is 204" time="0.318" classname="ApiProjectBrevo"/>
+    <testcase name="Status code name has a No Content string" time="0.318" classname="ApiProjectBrevo"/>
+    <testcase name="vary is present in headers" time="0.318" classname="ApiProjectBrevo"/>
+    <testcase name="CF-RAY is present in headers" time="0.318" classname="ApiProjectBrevo"/>
+    <testcase name="Server is present in headers" time="0.318" classname="ApiProjectBrevo"/>
+    <testcase name="Connection is present in headers" time="0.318" classname="ApiProjectBrevo"/>
+  </testsuite>
+  <testsuite name="Contact management / Lists / Delete a list" id="cc3de3e8-83f0-47a8-8257-526ab7913504" timestamp="2024-05-07T19:47:27.357Z" tests="7" failures="0" errors="0" time="0.315">
+    <testcase name="Empty body response" time="0.315" classname="ApiProjectBrevo"/>
+    <testcase name="Status code is 204" time="0.315" classname="ApiProjectBrevo"/>
+    <testcase name="Status code name has a No Content string" time="0.315" classname="ApiProjectBrevo"/>
+    <testcase name="vary is present in headers" time="0.315" classname="ApiProjectBrevo"/>
+    <testcase name="CF-RAY is present in headers" time="0.315" classname="ApiProjectBrevo"/>
+    <testcase name="Server is present in headers" time="0.315" classname="ApiProjectBrevo"/>
+    <testcase name="Connection is present in headers" time="0.315" classname="ApiProjectBrevo"/>
+  </testsuite>
+  <testsuite name="Contact management / Attributes / List all attributes" id="5e30cff7-283b-40ef-98d3-6da35210950e" timestamp="2024-05-07T19:47:27.357Z" tests="8" failures="0" errors="0" time="0.198">
+    <testcase name="Body response includes name attribute" time="0.198" classname="ApiProjectBrevo"/>
+    <testcase name="Body response includes category attribute" time="0.198" classname="ApiProjectBrevo"/>
+    <testcase name="Body response includes type attribute" time="0.198" classname="ApiProjectBrevo"/>
+    <testcase name="Body response includes calculatedValue attribute" time="0.198" classname="ApiProjectBrevo"/>
+    <testcase name="Body response includes field_key attribute" time="0.198" classname="ApiProjectBrevo"/>
+    <testcase name="Content-Type is present in headers" time="0.198" classname="ApiProjectBrevo"/>
+    <testcase name="Content-Encoding is present in headers" time="0.198" classname="ApiProjectBrevo"/>
+    <testcase name="Transfer-Encoding is present in headers" time="0.198" classname="ApiProjectBrevo"/>
+  </testsuite>
+  <testsuite name="Contact management / Attributes / Create contact attribute" id="f36209b3-2be9-4b7e-917f-caf41104a31f" timestamp="2024-05-07T19:47:27.357Z" tests="5" failures="0" errors="0" time="0.314">
+    <testcase name="Status code is 201" time="0.314" classname="ApiProjectBrevo"/>
+    <testcase name="Status code name has a Created string" time="0.314" classname="ApiProjectBrevo"/>
+    <testcase name="CF-RAY is present in headers" time="0.314" classname="ApiProjectBrevo"/>
+    <testcase name="Server is present in headers" time="0.314" classname="ApiProjectBrevo"/>
+    <testcase name="Connection is present in headers" time="0.314" classname="ApiProjectBrevo"/>
+  </testsuite>
+  <testsuite name="Contact management / Attributes / Update contact attribute" id="fc578082-809a-45f7-925a-06d6a8595391" timestamp="2024-05-07T19:47:27.357Z" tests="6" failures="0" errors="0" time="0.282">
+    <testcase name="Empty body response" time="0.282" classname="ApiProjectBrevo"/>
+    <testcase name="Status code is 204" time="0.282" classname="ApiProjectBrevo"/>
+    <testcase name="Status code name has a No Content string" time="0.282" classname="ApiProjectBrevo"/>
+    <testcase name="CF-RAY is present in headers" time="0.282" classname="ApiProjectBrevo"/>
+    <testcase name="Server is present in headers" time="0.282" classname="ApiProjectBrevo"/>
+    <testcase name="Connection is present in headers" time="0.282" classname="ApiProjectBrevo"/>
+  </testsuite>
+  <testsuite name="Contact management / Attributes / Delete an attribute" id="675ee425-4463-4fac-905b-e658141bf560" timestamp="2024-05-07T19:47:27.357Z" tests="5" failures="0" errors="0" time="0.257">
+    <testcase name="Empty body response" time="0.257" classname="ApiProjectBrevo"/>
+    <testcase name="Status code is 204" time="0.257" classname="ApiProjectBrevo"/>
+    <testcase name="Status code name has a No Content string" time="0.257" classname="ApiProjectBrevo"/>
+    <testcase name="Server is present in headers" time="0.257" classname="ApiProjectBrevo"/>
+    <testcase name="Connection is present in headers" time="0.257" classname="ApiProjectBrevo"/>
+  </testsuite>
+  <testsuite name="Transactional / Email API / Send a transactional email" id="cedcb32b-6a42-4650-a965-39175fa0cd16" timestamp="2024-05-07T19:47:27.357Z" tests="0" failures="0" errors="0" time="0.144"/>
+  <testsuite name="Transactional / Email API / Get the list of transactional emails on the basis of allowed filters" id="3558c58d-3285-4ddf-b2ac-25778700872b" timestamp="2024-05-07T19:47:27.357Z" tests="0" failures="0" errors="0" time="0.145"/>
+  <testsuite name="Transactional / Email API / Delete scheduled emails by batchId or messageId" id="21ac2364-10fe-40ed-bf77-f3d343bee360" timestamp="2024-05-07T19:47:27.357Z" tests="0" failures="0" errors="0" time="0.306"/>
+  <testsuite name="Transactional / Email API / Get the personalized content of a sent transactional email" id="9d0c6511-0bed-4b87-8e8a-6ac98952be0d" timestamp="2024-05-07T19:47:27.357Z" tests="0" failures="0" errors="0" time="0.245"/>
+  <testsuite name="Transactional / Email API / Fetch scheduled emails by batchId or messageId" id="f899de21-53e9-47cf-bd4b-bc970955df8b" timestamp="2024-05-07T19:47:27.357Z" tests="0" failures="0" errors="0" time="0.148"/>
+  <testsuite name="Transactional / Templates / Get the list of email templates" id="59c4b358-38eb-422d-835d-66a19fbb6444" timestamp="2024-05-07T19:47:27.357Z" tests="0" failures="0" errors="0" time="0.188"/>
+  <testsuite name="Transactional / Templates / Create an email template" id="b029292a-3dbc-4091-8b17-d3e2f0818cae" timestamp="2024-05-07T19:47:27.357Z" tests="0" failures="0" errors="0" time="0.212"/>
+  <testsuite name="Transactional / Templates / Returns the template information" id="3e69d4dd-83ca-4b3c-83b4-5ca5c39550a0" timestamp="2024-05-07T19:47:27.357Z" tests="0" failures="0" errors="0" time="0.167"/>
+  <testsuite name="Transactional / Templates / Update an email template" id="6cbca6d3-301d-4eb0-9ed3-b4a7a877ef67" timestamp="2024-05-07T19:47:27.357Z" tests="0" failures="0" errors="0" time="0.169"/>
+  <testsuite name="Transactional / Templates / Delete an inactive email template" id="c8260ac9-80c0-43c1-9235-665c2f14ef2a" timestamp="2024-05-07T19:47:27.357Z" tests="0" failures="0" errors="0" time="0.168"/>
+  <testsuite name="Transactional / Templates / Send a template to your test list" id="fb72ab26-8e67-4c6b-a5c2-dddd28f5cff7" timestamp="2024-05-07T19:47:27.357Z" tests="0" failures="0" errors="0" time="0.496"/>
+  <testsuite name="Transactional / Statistics / Get your transactional email activity aggregated over a period of time" id="1425cd84-9b3b-45ee-8a76-a6795fdb6589" timestamp="2024-05-07T19:47:27.357Z" tests="2" failures="0" errors="0" time="0.255">
+    <testcase name="Body matches string" time="0.255" classname="ApiProjectBrevo"/>
+  </testsuite>
+  <testsuite name="Transactional / Statistics / Get your transactional email activity aggregated per day" id="6dbad5f4-bd06-4648-a9cd-bea0cf94c39c" timestamp="2024-05-07T19:47:27.357Z" tests="2" failures="0" errors="0" time="0.253">
+    <testcase name="Body matches string" time="0.253" classname="ApiProjectBrevo"/>
+    <testcase name="Content-Type is present" time="0.253" classname="ApiProjectBrevo"/>
+  </testsuite>
+  <testsuite name="Transactional / Statistics / Get all your transactional email activity (unaggregated events)" id="5334c17a-e5e0-478b-9fd9-c7d7af7ce9ee" timestamp="2024-05-07T19:47:27.357Z" tests="2" failures="0" errors="0" time="0.652">
+    <testcase name="Content-Type is present" time="0.652" classname="ApiProjectBrevo"/>
+    <testcase name="CF-Ray is present" time="0.652" classname="ApiProjectBrevo"/>
+  </testsuite>
+  <testsuite name="Transactional / Blocked Contacts / Get the list of blocked or unsubscribed transactional contacts" id="ff40b3f5-b5b1-4e73-ac76-fd87ce194ee3" timestamp="2024-05-07T19:47:27.357Z" tests="2" failures="0" errors="0" time="0.491">
+    <testcase name="Body matches string" time="0.491" classname="ApiProjectBrevo"/>
+  </testsuite>
+  <testsuite name="Transactional / Blocked Contacts / Unblock or resubscribe a transactional contact" id="f69aa891-8410-4e72-8dc8-69a2c84f381f" timestamp="2024-05-07T19:47:27.357Z" tests="0" failures="0" errors="0" time="0.159"/>
+  <testsuite name="Transactional / Blocked Domains / Get the list of blocked domains" id="578f2c3a-9f48-4b39-95be-d9e9d7002b1f" timestamp="2024-05-07T19:47:27.357Z" tests="2" failures="0" errors="0" time="0.178">
+    <testcase name="Body matches string" time="0.178" classname="ApiProjectBrevo"/>
+    <testcase name="Content-Type is present" time="0.178" classname="ApiProjectBrevo"/>
+  </testsuite>
+  <testsuite name="Transactional / Blocked Domains / Add a new domain to the list of blocked domains" id="01bb2377-d1b5-46ff-a0df-c48f0bb59a77" timestamp="2024-05-07T19:47:27.357Z" tests="2" failures="0" errors="0" time="0.189">
+    <testcase name="Status code is 201" time="0.189" classname="ApiProjectBrevo"/>
+    <testcase name="Status code name has a Created string" time="0.189" classname="ApiProjectBrevo"/>
+  </testsuite>
+  <testsuite name="Transactional / Blocked Domains / Unblock an existing domain from the list of blocked domains" id="2e356a9a-c372-476f-85d8-0f04ca0b4ca9" timestamp="2024-05-07T19:47:27.357Z" tests="3" failures="0" errors="0" time="0.168">
+    <testcase name="Empty body response" time="0.168" classname="ApiProjectBrevo"/>
+    <testcase name="Status code is 204" time="0.168" classname="ApiProjectBrevo"/>
+    <testcase name="Status code name has a No Content string" time="0.168" classname="ApiProjectBrevo"/>
+  </testsuite>
+  <testsuite name="Transactional / Logs / Delete hardbounces" id="6926791a-873e-4bab-9c59-857dcdcb1c65" timestamp="2024-05-07T19:47:27.357Z" tests="2" failures="0" errors="0" time="0.186">
+    <testcase name="Status code is 200" time="0.186" classname="ApiProjectBrevo"/>
+    <testcase name="Status code name has a OK string" time="0.186" classname="ApiProjectBrevo"/>
+  </testsuite>
+  <testsuite name="Transactional / Logs / Delete an SMTP transactional log" id="dace0310-44a5-4185-9635-9a770fd64a3e" timestamp="2024-05-07T19:47:27.357Z" tests="0" failures="0" errors="0" time="0.158"/>
+  <testsuite name="Transactional / Inbound Email Parsing / Get the list of all the events for the received emails." id="e9283f54-4178-4877-88f9-ea8f21fcd714" timestamp="2024-05-07T19:47:27.357Z" tests="1" failures="0" errors="0" time="0.294">
+    <testcase name="Body matches string" time="0.294" classname="ApiProjectBrevo"/>
+  </testsuite>
+  <testsuite name="Transactional / Inbound Email Parsing / Fetch all events history for one particular received email." id="06ad116a-0144-4019-9a21-156def2f49ee" timestamp="2024-05-07T19:47:27.357Z" tests="0" failures="0" errors="0" time="0.162"/>
+  <testsuite name="Transactional / Inbound Email Parsing / Retrieve inbound attachment with download token." id="5c54fc89-95fb-4077-b014-bc815df656c5" timestamp="2024-05-07T19:47:27.357Z" tests="0" failures="0" errors="0" time="0.282"/>
+  <testsuite name="Transactional / Transactional SMS / Send SMS message to a mobile number" id="c85def78-ce8b-497b-bc17-603f82326e61" timestamp="2024-05-07T19:47:27.357Z" tests="0" failures="0" errors="0" time="0.177"/>
+  <testsuite name="Transactional / SMS statistics / Get your SMS activity aggregated over a period of time" id="05596e7f-ffa2-4837-8d34-8d9896ee0d34" timestamp="2024-05-07T19:47:27.357Z" tests="1" failures="0" errors="0" time="0.187">
+    <testcase name="Content-Type is present" time="0.187" classname="ApiProjectBrevo"/>
+  </testsuite>
+  <testsuite name="Transactional / SMS statistics / Get your SMS activity aggregated per day" id="0a5e02f1-a1a9-4f4f-965f-02a671987f92" timestamp="2024-05-07T19:47:27.357Z" tests="1" failures="0" errors="0" time="0.179">
+    <testcase name="CF-RAY is present" time="0.179" classname="ApiProjectBrevo"/>
+  </testsuite>
+  <testsuite name="Transactional / SMS statistics / Get all your SMS activity (unaggregated events)" id="be3dc041-e993-45c3-ab49-13ade4fc0717" timestamp="2024-05-07T19:47:27.357Z" tests="1" failures="0" errors="0" time="0.177">
+    <testcase name="Server is present" time="0.177" classname="ApiProjectBrevo"/>
+  </testsuite>
+  <testsuite name="Account / Webhooks / Get all webhooks" id="32d4c2a3-6642-4453-964f-3ea422e696bc" timestamp="2024-05-07T19:47:27.357Z" tests="5" failures="0" errors="0" time="0.315">
+    <testcase name="The type of array[1] is marketing" time="0.315" classname="ApiProjectBrevo"/>
+    <testcase name="Body matches the string webhook test" time="0.315" classname="ApiProjectBrevo"/>
+    <testcase name="Body matches the string hardBounce" time="0.315" classname="ApiProjectBrevo"/>
+    <testcase name="Body matches the string delivered" time="0.315" classname="ApiProjectBrevo"/>
+    <testcase name="Content-Type is present" time="0.315" classname="ApiProjectBrevo"/>
+  </testsuite>
+  <testsuite name="Account / Webhooks / Create a webhook" id="782122e3-99ee-40a1-97c3-ea5c54502dc4" timestamp="2024-05-07T19:47:27.357Z" tests="3" failures="0" errors="0" time="0.294">
+    <testcase name="Verify the response body includes webhook ID" time="0.294" classname="ApiProjectBrevo"/>
+    <testcase name="Status code is 201" time="0.294" classname="ApiProjectBrevo"/>
+    <testcase name="Connection is present in headers" time="0.294" classname="ApiProjectBrevo"/>
+  </testsuite>
+  <testsuite name="Account / Webhooks / Get a webhook details" id="56d7b5ef-dcb0-489b-b7a5-2ad166d56eff" timestamp="2024-05-07T19:47:27.357Z" tests="6" failures="0" errors="0" time="0.586">
+    <testcase name="Verify the webhook url" time="0.586" classname="ApiProjectBrevo"/>
+    <testcase name="Verify the webhook id" time="0.586" classname="ApiProjectBrevo"/>
+    <testcase name="Verify the webhook description" time="0.586" classname="ApiProjectBrevo"/>
+    <testcase name="Verify the webhook type" time="0.586" classname="ApiProjectBrevo"/>
+    <testcase name="Verify the value of events[1]" time="0.586" classname="ApiProjectBrevo"/>
+    <testcase name="Content-Type is present in headers" time="0.586" classname="ApiProjectBrevo"/>
+  </testsuite>
+  <testsuite name="Account / Webhooks / Update a webhook" id="186e3ff5-129b-4455-8fb7-503180251001" timestamp="2024-05-07T19:47:27.357Z" tests="4" failures="0" errors="0" time="0.242">
+    <testcase name="Empty body response" time="0.242" classname="ApiProjectBrevo"/>
+    <testcase name="Status code is 204" time="0.242" classname="ApiProjectBrevo"/>
+    <testcase name="Status code name hasa No Content string" time="0.242" classname="ApiProjectBrevo"/>
+    <testcase name="Response time is less than 500ms" time="0.242" classname="ApiProjectBrevo"/>
+  </testsuite>
+  <testsuite name="Account / Webhooks / Delete a webhook" id="59cd3665-fcdb-4b0e-83bf-bbd284a2bc40" timestamp="2024-05-07T19:47:27.357Z" tests="4" failures="0" errors="0" time="0.256">
+    <testcase name="Empty body response" time="0.256" classname="ApiProjectBrevo"/>
+    <testcase name="Status code is 204" time="0.256" classname="ApiProjectBrevo"/>
+    <testcase name="Status code name hasa No Content string" time="0.256" classname="ApiProjectBrevo"/>
+    <testcase name="Response time is less than 500ms" time="0.256" classname="ApiProjectBrevo"/>
+  </testsuite>
+  <testsuite name="Account / Reseller / Credits / Add Email and/or SMS credits to a specific child account" id="cc831fd2-488c-4373-98b8-570bebfb87c1" timestamp="2024-05-07T19:47:27.357Z" tests="0" failures="0" errors="0" time="0.179"/>
+  <testsuite name="Account / Reseller / Credits / Remove Email and/or SMS credits from a specific child account" id="84f538ce-eefd-4947-903d-7a5216c7329a" timestamp="2024-05-07T19:47:27.357Z" tests="0" failures="0" errors="0" time="0.186"/>
+  <testsuite name="Account / Reseller / IP management / Associate a dedicated IP to the child" id="5b1ba8fb-2d97-4f2b-bb18-ec1ae8a8bea3" timestamp="2024-05-07T19:47:27.357Z" tests="0" failures="0" errors="0" time="0.203"/>
+  <testsuite name="Account / Reseller / IP management / Dissociate a dedicated IP to the child" id="dd1b2979-d8a8-4746-b83e-3c846a9968e2" timestamp="2024-05-07T19:47:27.357Z" tests="0" failures="0" errors="0" time="0.182"/>
+  <testsuite name="Account / Reseller / Domains / Get all sender domains for a specific child account" id="5949690b-f49e-4be5-ac08-c62a6e5f2dd3" timestamp="2024-05-07T19:47:27.357Z" tests="0" failures="0" errors="0" time="0.177"/>
+  <testsuite name="Account / Reseller / Domains / Create a domain for a child account" id="88299762-6cc0-4952-bbe1-608767392fb7" timestamp="2024-05-07T19:47:27.357Z" tests="0" failures="0" errors="0" time="0.190"/>
+  <testsuite name="Account / Reseller / Domains / Update the sender domain of reseller's child based on the childIdentifier and domainName passed" id="0a28fc9b-8f1b-4bbd-8974-24ae95fc2e6c" timestamp="2024-05-07T19:47:27.357Z" tests="0" failures="0" errors="0" time="0.179"/>
+  <testsuite name="Account / Reseller / Domains / Delete the sender domain of the reseller child based on the childIdentifier and domainName passed" id="1cfefeff-76f7-4134-a055-b75686f59403" timestamp="2024-05-07T19:47:27.357Z" tests="0" failures="0" errors="0" time="0.192"/>
+  <testsuite name="Account / Reseller / Child accounts / Get the list of all children accounts" id="54d831e5-a0c8-44af-9ab3-e088e9387c0f" timestamp="2024-05-07T19:47:27.357Z" tests="0" failures="0" errors="0" time="0.195"/>
+  <testsuite name="Account / Reseller / Child accounts / Creates a reseller child" id="7bb3c6b7-a735-4b59-86c7-5352512e9d3d" timestamp="2024-05-07T19:47:27.357Z" tests="0" failures="0" errors="0" time="0.187"/>
+  <testsuite name="Account / Reseller / Child accounts / Get a child account's details" id="63b076c9-8b50-4419-a89f-89ba78952db8" timestamp="2024-05-07T19:47:27.357Z" tests="0" failures="0" errors="0" time="0.198"/>
+  <testsuite name="Account / Reseller / Child accounts / Get the status of a reseller's child account creation, whether it is successfully created (exists) or not based on the childIdentifier supplied" id="a26b10b5-9408-4f2e-a25f-56d8a8e6dfb1" timestamp="2024-05-07T19:47:27.357Z" tests="0" failures="0" errors="0" time="0.192"/>
+  <testsuite name="Account / Reseller / Child accounts / Update info of reseller's child based on the child identifier supplied" id="abb84d43-1b3c-4805-9577-f76f0db76306" timestamp="2024-05-07T19:47:27.357Z" tests="0" failures="0" errors="0" time="0.188"/>
+  <testsuite name="Account / Reseller / Child accounts / Delete a single reseller child based on the child identifier supplied" id="52476544-a260-40c3-82fe-3fad496f056c" timestamp="2024-05-07T19:47:27.357Z" tests="0" failures="0" errors="0" time="0.192"/>
+  <testsuite name="Account / Reseller / Child accounts / Update info of reseller's child account status based on the identifier supplied" id="048963c4-ab1d-4001-a8cc-f4db63706cc8" timestamp="2024-05-07T19:47:27.357Z" tests="0" failures="0" errors="0" time="0.178"/>
+  <testsuite name="Account / Reseller / Child accounts / Get session token to access Sendinblue (SSO)" id="e67adc32-6df0-403c-a590-f86fb388ca6c" timestamp="2024-05-07T19:47:27.357Z" tests="0" failures="0" errors="0" time="0.183"/>
+  <testsuite name="Account / Process / Return all the processes for your account" id="b2271754-34a9-41c6-a341-30db1329ceca" timestamp="2024-05-07T19:47:27.357Z" tests="7" failures="2" errors="0" time="0.254">
+    <testcase name="Verify the proccess[0] id" time="0.254" classname="ApiProjectBrevo">
+      <failure type="AssertionFailure" message="expected 33 to deeply equal 3">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: c291d6f8-8c87-44f0-b2b2-1382ac7c9f35.]]>
+        <![CDATA[Collection name: API_Project_Brevo.]]>
+        <![CDATA[Request name: Account / Process / Return all the processes for your account.]]>
+        <![CDATA[Test description: Verify the proccess[0] id.]]>
+        <![CDATA[Error message: expected 33 to deeply equal 3.]]>
+        <![CDATA[Stacktrace: AssertionError: expected 33 to deeply equal 3
+   at Object.eval sandbox-script.js:1:141).]]>
+      </failure>
+    </testcase>
+    <testcase name="Verify the processes[0] status" time="0.254" classname="ApiProjectBrevo"/>
+    <testcase name="Verify the processes[0] name" time="0.254" classname="ApiProjectBrevo"/>
+    <testcase name="Verify the total count" time="0.254" classname="ApiProjectBrevo">
+      <failure type="AssertionFailure" message="expected 19 to deeply equal 3">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: c291d6f8-8c87-44f0-b2b2-1382ac7c9f35.]]>
+        <![CDATA[Collection name: API_Project_Brevo.]]>
+        <![CDATA[Request name: Account / Process / Return all the processes for your account.]]>
+        <![CDATA[Test description: Verify the total count.]]>
+        <![CDATA[Error message: expected 19 to deeply equal 3.]]>
+        <![CDATA[Stacktrace: AssertionError: expected 19 to deeply equal 3
+   at Object.eval sandbox-script.js:4:141).]]>
+      </failure>
+    </testcase>
+    <testcase name="Content-Type is present" time="0.254" classname="ApiProjectBrevo"/>
+    <testcase name="Content-Encoding is present" time="0.254" classname="ApiProjectBrevo"/>
+    <testcase name="Response time is less than 500ms" time="0.254" classname="ApiProjectBrevo"/>
+  </testsuite>
+  <testsuite name="Account / Process / Return the informations for a process" id="5721175f-c12f-4e5b-9336-c93c9626db61" timestamp="2024-05-07T19:47:27.357Z" tests="6" failures="0" errors="0" time="0.201">
+    <testcase name="Verify the proccess id" time="0.201" classname="ApiProjectBrevo"/>
+    <testcase name="Verify the proccess status" time="0.201" classname="ApiProjectBrevo"/>
+    <testcase name="Verify the proccess name" time="0.201" classname="ApiProjectBrevo"/>
+    <testcase name="Content-Type is present" time="0.201" classname="ApiProjectBrevo"/>
+    <testcase name="Content-Encoding is present" time="0.201" classname="ApiProjectBrevo"/>
+    <testcase name="Response time is less than 500ms" time="0.201" classname="ApiProjectBrevo"/>
+  </testsuite>
+  <testsuite name="Account / Corporate / Get the details of requested master account" id="765821c9-26c0-4d08-a69e-4f6686fe691b" timestamp="2024-05-07T19:47:27.357Z" tests="0" failures="0" errors="0" time="0.166"/>
+  <testsuite name="Account / Corporate / Get the list of all the sub-accounts of the master account." id="11cb1669-025e-4819-84cc-cfb0117ff4fc" timestamp="2024-05-07T19:47:27.357Z" tests="0" failures="0" errors="0" time="0.147"/>
+  <testsuite name="Account / Corporate / Create a new sub-account under a master account." id="09152af1-d886-458e-9643-1772e038d90c" timestamp="2024-05-07T19:47:27.357Z" tests="0" failures="0" errors="0" time="0.147"/>
+  <testsuite name="Account / Corporate / Generate SSO token to access Sendinblue" id="efbc43c5-5f78-466c-8fb6-c75568c9708a" timestamp="2024-05-07T19:47:27.357Z" tests="0" failures="0" errors="0" time="0.157"/>
+  <testsuite name="Account / Corporate / Get sub-account details" id="ffae2616-9b6b-435b-b10e-2ef9bd91f38e" timestamp="2024-05-07T19:47:27.357Z" tests="0" failures="0" errors="0" time="0.173"/>
+  <testsuite name="Account / Corporate / Delete a sub-account" id="4024070a-1a0e-4ad0-8e79-bb20a8c81235" timestamp="2024-05-07T19:47:27.357Z" tests="0" failures="0" errors="0" time="0.147"/>
+  <testsuite name="Account / Corporate / Update sub-account plan" id="86e068e9-0421-4ce5-ae92-4730777def55" timestamp="2024-05-07T19:47:27.357Z" tests="0" failures="0" errors="0" time="0.153"/>
+  <testsuite name="Account / Account data / Get your account information, plan and credits details" id="1580bd73-f08e-4e8b-b34f-801f93f65c68" timestamp="2024-05-07T19:47:27.357Z" tests="9" failures="0" errors="0" time="0.275">
+    <testcase name="Body matches string Amber" time="0.275" classname="ApiProjectBrevo"/>
+    <testcase name="Body matches string Ozenogu" time="0.275" classname="ApiProjectBrevo"/>
+    <testcase name="Verify the email address" time="0.275" classname="ApiProjectBrevo"/>
+    <testcase name="Verify the first name" time="0.275" classname="ApiProjectBrevo"/>
+    <testcase name="Verify the last name" time="0.275" classname="ApiProjectBrevo"/>
+    <testcase name="Verify the company name" time="0.275" classname="ApiProjectBrevo"/>
+    <testcase name="Content-Type is present in header" time="0.275" classname="ApiProjectBrevo"/>
+    <testcase name="Server is present in header" time="0.275" classname="ApiProjectBrevo"/>
+    <testcase name="Response time is less than 500ms" time="0.275" classname="ApiProjectBrevo"/>
+  </testsuite>
+  <testsuite name="Account / Senders / Create a new sender" id="1a3952df-3232-4628-94ba-edb7dcd973d6" timestamp="2024-05-07T19:47:27.357Z" tests="4" failures="1" errors="0" time="0.752">
+    <testcase name="Body matches id string" time="0.752" classname="ApiProjectBrevo"/>
+    <testcase name="Body matches spfError string" time="0.752" classname="ApiProjectBrevo"/>
+    <testcase name="Body matches dkimError string" time="0.752" classname="ApiProjectBrevo"/>
+    <testcase name="Response time is less than 500ms" time="0.752" classname="ApiProjectBrevo">
+      <failure type="AssertionFailure" message="expected 752 to be below 500">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: c291d6f8-8c87-44f0-b2b2-1382ac7c9f35.]]>
+        <![CDATA[Collection name: API_Project_Brevo.]]>
+        <![CDATA[Request name: Account / Senders / Create a new sender.]]>
+        <![CDATA[Test description: Response time is less than 500ms.]]>
+        <![CDATA[Error message: expected 752 to be below 500.]]>
+        <![CDATA[Stacktrace: AssertionError: expected 752 to be below 500
+   at Object.eval sandbox-script.js:4:151).]]>
+      </failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="Account / Senders / Get the list of all your senders" id="7fb5ee17-3ea3-4b5a-bd46-50c9351374fd" timestamp="2024-05-07T19:47:27.357Z" tests="8" failures="0" errors="0" time="0.289">
+    <testcase name="Verify the id of the first sender" time="0.289" classname="ApiProjectBrevo"/>
+    <testcase name="Body matches string Newsletter" time="0.289" classname="ApiProjectBrevo"/>
+    <testcase name="Body matches string Wiza Inc" time="0.289" classname="ApiProjectBrevo"/>
+    <testcase name="Verify that body response includes active string" time="0.289" classname="ApiProjectBrevo"/>
+    <testcase name="Verify that body response includes ips string" time="0.289" classname="ApiProjectBrevo"/>
+    <testcase name="CF-RAY is present" time="0.289" classname="ApiProjectBrevo"/>
+    <testcase name="CF-Cache-Status is present" time="0.289" classname="ApiProjectBrevo"/>
+    <testcase name="Response time is less than 500ms" time="0.289" classname="ApiProjectBrevo"/>
+  </testsuite>
+  <testsuite name="Account / Senders / Get all the dedicated IPs for your account" id="24fafb3b-e9e6-4d43-9db8-89ff7f79b7e5" timestamp="2024-05-07T19:47:27.357Z" tests="2" failures="0" errors="0" time="0.208">
+    <testcase name="Body matches ips string" time="0.208" classname="ApiProjectBrevo"/>
+    <testcase name="Content-Type is present in headers" time="0.208" classname="ApiProjectBrevo"/>
+  </testsuite>
+  <testsuite name="Account / Senders / Get all the dedicated IPs for a sender" id="fa183ddd-cc97-410f-93b6-090c022f6dfb" timestamp="2024-05-07T19:47:27.357Z" tests="2" failures="0" errors="0" time="0.273">
+    <testcase name="Body matches ips string" time="0.273" classname="ApiProjectBrevo"/>
+    <testcase name="Content-Type is present in headers" time="0.273" classname="ApiProjectBrevo"/>
+  </testsuite>
+  <testsuite name="Account / Senders / Update a sender" id="9fef18a1-ccf2-4a10-ad1a-add8e35a5baf" timestamp="2024-05-07T19:47:27.357Z" tests="3" failures="0" errors="0" time="0.692">
+    <testcase name="Empty body response" time="0.692" classname="ApiProjectBrevo"/>
+    <testcase name="Status code is 204" time="0.692" classname="ApiProjectBrevo"/>
+    <testcase name="Status code name has a No Content string" time="0.692" classname="ApiProjectBrevo"/>
+  </testsuite>
+  <testsuite name="Account / Senders / Delete a sender" id="e8583707-28ad-403a-af89-70c76ec75ab5" timestamp="2024-05-07T19:47:27.357Z" tests="3" failures="0" errors="0" time="0.325">
+    <testcase name="Empty body response" time="0.325" classname="ApiProjectBrevo"/>
+    <testcase name="Status code is 204" time="0.325" classname="ApiProjectBrevo"/>
+    <testcase name="Status code name has a No Content string" time="0.325" classname="ApiProjectBrevo"/>
+  </testsuite>
+</testsuites>

@@ -1,0 +1,15 @@
+{
+  "fileUrl": "https://importfile.domain.com",
+ 
+ 
+  "listIds": [
+    8,
+    9
+  ],
+  "notifyUrl": "http://requestb.in/173lyyx1",
+ 
+  "emailBlacklist": false,
+  "smsBlacklist": false,
+  "updateExistingContacts": true,
+  "emptyContactsAttributes": true
+}

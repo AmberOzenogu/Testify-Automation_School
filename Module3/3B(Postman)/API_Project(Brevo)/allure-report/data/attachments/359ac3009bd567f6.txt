@@ -1,0 +1,5 @@
+level: log, messages: [object Object]
+level: log, messages: ozenoguamber@gmail.com
+level: log, messages: Amber
+level: log, messages: Ozenogu
+level: log, messages: Testify Academy

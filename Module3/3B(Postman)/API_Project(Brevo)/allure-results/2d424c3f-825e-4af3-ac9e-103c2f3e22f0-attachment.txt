@@ -1,0 +1,6 @@
+level: log, messages: [object Object]
+level: log, messages: https://webhook.site/5ebc5d36-217f-4989-81fd-5f02cbb49c6d
+level: log, messages: 1039571
+level: log, messages: test for SMS
+level: log, messages: marketing
+level: log, messages: opened

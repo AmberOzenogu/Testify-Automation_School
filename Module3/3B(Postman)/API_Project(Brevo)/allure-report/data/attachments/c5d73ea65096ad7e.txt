@@ -1,0 +1,17 @@
+{
+  "email": "Deangelo_Gulgowski36@hotmail.com",
+  "name": "Quigley and Sons",
+  "ips": [
+    {
+      "domain": "francesca.info",
+      "ip": "170.243.151.138",
+      "weight": 50
+    },
+    {
+      "domain": "isom.com",
+      "ip": "146.214.127.137",
+      "weight": 50
+    }
+  ],
+  "isActive": true
+}

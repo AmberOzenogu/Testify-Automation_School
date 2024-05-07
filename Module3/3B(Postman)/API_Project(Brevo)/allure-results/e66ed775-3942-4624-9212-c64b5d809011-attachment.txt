@@ -1,0 +1,3 @@
+level: log, messages: [object Object]
+level: log, messages: 663776961475e991d064377e
+level: log, messages: Appium.png

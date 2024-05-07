@@ -1,0 +1,6 @@
+{
+  "name": "Spring Promo Code",
+  "sender": "MyShop",
+  "content": "Get a discount by visiting our NY store and saying : Happy Spring!"
+ 
+}

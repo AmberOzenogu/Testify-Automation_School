@@ -1,0 +1,3 @@
+level: log, messages: [object Object]
+level: log, messages: [object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+level: log, messages: [object Object]

@@ -1,0 +1,9 @@
+{
+  "attributes": {
+    "occaecat_3d3": {},
+    "consectetur_5": {}
+  },
+  "emailBlacklisted": false,
+  "smsBlacklisted": true
+  
+}

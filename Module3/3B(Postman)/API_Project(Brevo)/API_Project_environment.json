@@ -1,0 +1,111 @@
+{
+	"id": "2b8af7f9-3627-47a9-90d1-ed7cfaa4bc22",
+	"name": "API_Project",
+	"values": [
+		{
+			"key": "myAPIKey",
+			"value": "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",
+			"type": "secret",
+			"enabled": true
+		},
+		{
+			"key": "senderId",
+			"value": "",
+			"type": "any",
+			"enabled": true
+		},
+		{
+			"key": "webhookId",
+			"value": "",
+			"type": "any",
+			"enabled": true
+		},
+		{
+			"key": "ownerId",
+			"value": "662f7f448089f8129a3b9253",
+			"type": "default",
+			"enabled": true
+		},
+		{
+			"key": "companyId",
+			"value": "",
+			"type": "any",
+			"enabled": true
+		},
+		{
+			"key": "dealId",
+			"value": "",
+			"type": "any",
+			"enabled": true
+		},
+		{
+			"key": "taskId",
+			"value": "",
+			"type": "any",
+			"enabled": true
+		},
+		{
+			"key": "noteId",
+			"value": "",
+			"type": "any",
+			"enabled": true
+		},
+		{
+			"key": "fileId",
+			"value": "",
+			"type": "any",
+			"enabled": true
+		},
+		{
+			"key": "agentId",
+			"value": "662f7f448089f8129a3b9254_662f7f448089f8129a3b9253",
+			"type": "default",
+			"enabled": true
+		},
+		{
+			"key": "messageId",
+			"value": "",
+			"type": "any",
+			"enabled": true
+		},
+		{
+			"key": "automatedMessageId",
+			"value": "",
+			"type": "any",
+			"enabled": true
+		},
+		{
+			"key": "contactId",
+			"value": "",
+			"type": "any",
+			"enabled": true
+		},
+		{
+			"key": "folderId",
+			"value": "",
+			"type": "any",
+			"enabled": true
+		},
+		{
+			"key": "listId",
+			"value": "",
+			"type": "any",
+			"enabled": true
+		},
+		{
+			"key": "attributeName",
+			"value": "",
+			"type": "any",
+			"enabled": true
+		},
+		{
+			"key": "smsCamId",
+			"value": "",
+			"type": "any",
+			"enabled": true
+		}
+	],
+	"_postman_variable_scope": "environment",
+	"_postman_exported_at": "2024-05-07T20:15:53.476Z",
+	"_postman_exported_using": "Postman/11.0.6"
+}

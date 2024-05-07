@@ -1,0 +1,4 @@
+level: log, messages: [object Object]
+level: log, messages: 2
+level: log, messages: queued
+level: log, messages: TRANS-GLOBAL-CALC

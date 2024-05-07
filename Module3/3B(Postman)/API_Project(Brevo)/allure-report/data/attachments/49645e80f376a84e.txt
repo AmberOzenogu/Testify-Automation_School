@@ -1,0 +1,16 @@
+{
+  "contacts": [
+    {
+      "email": "wyman.turner96@gmail.com",
+      "id": 11,
+      "emailBlacklisted": false,
+      "smsBlacklisted": true
+    },
+    {
+      "email": "salvatore.stanton98@hotmail.com",
+      "id": 10,
+      "emailBlacklisted": false,
+      "smsBlacklisted": true
+    }
+  ]
+}
