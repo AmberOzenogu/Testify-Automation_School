@@ -1,0 +1,2 @@
+level: log, messages: [object Object]
+level: log, messages: 663a8aa414c5bd513c11c68d

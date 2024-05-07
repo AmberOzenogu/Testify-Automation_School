@@ -1,0 +1,21 @@
+{
+    "Date": "Tue, 07 May 2024 20:10:17 GMT",
+    "Content-Type": "application/octet-stream",
+    "Transfer-Encoding": "chunked",
+    "Connection": "keep-alive",
+    "access-control-allow-headers": "Content-Type, Content-Disposition, Authorization, Origin, Accept,*",
+    "access-control-allow-methods": "POST, GET, OPTIONS, PUT, DELETE, PATCH,PUT, POST, GET, DELETE, PATCH, OPTIONS",
+    "access-control-allow-origin": "https://public-api-companies.sendinblue.com,*",
+    "access-control-request-headers": "*",
+    "Cache-Control": "no-cache",
+    "content-disposition": "attachment; filename=Appium.png",
+    "x-envoy-upstream-service-time": "123",
+    "access-control-allow-credentials": "true",
+    "sib-request-id": "a1ca0265-8685-991c-ba91-bc332da0b62e",
+    "x-sib-server": "BREVO-srv-pr-online-rancher-worker-25",
+    "x-content-type-options": "nosniff",
+    "x-xss-protection": "1",
+    "CF-Cache-Status": "DYNAMIC",
+    "Server": "cloudflare",
+    "CF-RAY": "8803da431bbad424-LOS"
+}

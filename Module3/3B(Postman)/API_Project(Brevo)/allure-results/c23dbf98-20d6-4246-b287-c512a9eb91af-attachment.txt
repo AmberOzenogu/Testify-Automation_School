@@ -1,0 +1,11 @@
+{
+  "name": "Dandre",
+  "email": "Eliane@mycompany.com",
+  "ips": [
+    {
+      "domain": "mycompany.com",
+      "ip": "124.98.679.6",
+      "weight": 100
+    }
+  ]
+}

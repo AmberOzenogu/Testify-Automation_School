@@ -1,8 +1,0 @@
-{
-  "email": "Hosea_Thompson@gmail.com",
-  "attributes": {
-    "FNAME": "Clay"
-  },
-  "emailBlacklisted": false,
-  "smsBlacklisted": false
-}

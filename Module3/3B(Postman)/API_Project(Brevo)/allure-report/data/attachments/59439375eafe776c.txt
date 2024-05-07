@@ -1,0 +1,2 @@
+level: log, messages: [object Object]
+level: log, messages: C3ftfP7i7oytYgT78

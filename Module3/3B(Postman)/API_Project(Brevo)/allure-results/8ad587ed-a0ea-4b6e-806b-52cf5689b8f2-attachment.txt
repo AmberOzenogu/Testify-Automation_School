@@ -1,9 +1,0 @@
-{
-  "url": "http://requestb.in/173lyyx1j",
-  "description": "Webhook triggered on contact hardbounce",
-  "events": [
-    "hardBounce",
-    "hardBounce"
-  ],
-  "domain": "example.com"
-}
