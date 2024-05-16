@@ -9,5 +9,9 @@ public class Task9b {
             System.out.println("Try again");
             userInput = text.nextLine();
         }
+//        do {
+//            System.out.println("Try again");
+//            userInput = text.nextLine();
+//        } while (!userInput.equalsIgnoreCase("Testify"));
     }
 }
