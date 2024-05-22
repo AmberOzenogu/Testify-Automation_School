@@ -1,13 +1,12 @@
 public class Task15b extends Task15a {
     public static void main(String[] args) {
-        Task15a var = new Task15a();
+        Task15b var = new Task15b();
         var.firstName("Mike");
         var.fruits("Mango");
         var.aged(34);
 
-        Task15b varry = new Task15b();
-        varry.myObject();
-        varry.myGame();
+        var.myObject();
+        var.myGame();
     }
 
     public void myObject(){
