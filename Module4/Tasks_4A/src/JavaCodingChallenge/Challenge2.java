@@ -2,8 +2,7 @@ package JavaCodingChallenge;
 
 public class Challenge2 {
     public static void main(String[] args) {
-        String sentence = "I am the best Automation Tester";
-        String reversedSentence = reverseWords(sentence);
+        String reversedSentence = reverseWords("I am the best Automation Tester");
         System.out.println(reversedSentence);
     }
 
@@ -20,13 +19,13 @@ public class Challenge2 {
     // Recursive method to reverse an array of words
     private static void reverseArray(String[] words, int start, int end) {
         if (start >= end) {
-            return; // Base case: If start index is greater than or equal to end index, stop recursion
+            return;
         }
-        // Swap the words at start and end indices
+        // Swap the words at start and end
         String temp = words[start];
         words[start] = words[end];
         words[end] = temp;
-        // Recursively call the function with the next indices
+        // Recursively call the function with the next word
         reverseArray(words, start + 1, end - 1);
     }
 }
