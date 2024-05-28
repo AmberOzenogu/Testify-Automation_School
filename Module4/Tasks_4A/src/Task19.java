@@ -7,15 +7,15 @@ public class Task19 {
 
     public static void main(String[] args) {
         // 1. Final
-        final double ballSize = 20.81;
+        final String ballSize = "Small";
         String ballColor = "Blue";
         String ballTexture = "Fluffy";
 
-//        ballSize = 31.9;
+//        ballSize = "Big";
 //        ballColor = "White";
 //        ballTexture = "Soft";
-//        System.out.println("The properties of my ball are, size: " +ballSize+ ", color: "+ballColor
-//        + ", texture: "+ballTexture);
+        System.out.println("The properties of my ball are, size: " +ballSize+ ", color: "+ballColor
+        + ", texture: "+ballTexture);
 
         // 4. This
         Task19 var = new Task19();
