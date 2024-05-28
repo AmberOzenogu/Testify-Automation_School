@@ -2,8 +2,7 @@ package JavaCodingChallenge;
 
 public class Challenge2 {
     public static void main(String[] args) {
-        String sentence = "I am the best Automation Tester";
-        String reversedSentence = reverseWords(sentence);
+        String reversedSentence = reverseWords("I am the best Automation Tester");
         System.out.println(reversedSentence);
     }
 
