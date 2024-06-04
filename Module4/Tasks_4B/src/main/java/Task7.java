@@ -19,28 +19,33 @@ public class Task7 {
             driver.findElement(By.cssSelector("input.top_searchbox_submit")).click();
             Thread.sleep(2000);
 
-            String day1 = driver.findElement(By.xpath("//div[@class='city_fc_block_mask']/child::div[1]/child::div[1]")).getText();
+            String day1 = driver.findElement(By.xpath("//div[@class='city_container']/child::div[1]")).getText();
             System.out.println("Day 1 : \n" +day1);
             System.out.println("-----------------");
 
-            String day2 = driver.findElement(By.xpath("//div[@class='city_fc_block_mask']/child::div[1]/child::div[2]")).getText();
+            String day2 = driver.findElement(By.xpath("//div[@class='city_container']/child::div[2]")).getText();
             System.out.println("Day 2 : \n" +day2);
             System.out.println("-----------------");
 
-            String day3 = driver.findElement(By.xpath("//div[@class='city_fc_block_mask']/child::div[1]/child::div[3]")).getText();
+            String day3 = driver.findElement(By.xpath("//div[@class='city_container']/child::div[3]")).getText();
             System.out.println("Day 3 : \n" +day3);
             System.out.println("-----------------");
 
-            String day4 = driver.findElement(By.xpath("//div[@class='city_fc_block_mask']/child::div[1]/child::div[4]")).getText();
+            String day4 = driver.findElement(By.xpath("//div[@class='city_container']/child::div[4]")).getText();
             System.out.println("Day 4 : \n" +day4);
             System.out.println("-----------------");
 
-//            String day5 = driver.findElement(By.xpath("//div[@class='city_fc_block_mask']/child::div[1]/child::div[5]")).getText();
+//            String day5 = driver.findElement(By.xpath("//div[@class='city_container']/child::div[5]")).getText();
 //            System.out.println("Day 5 : \n" +day5);
 //            System.out.println("-----------------");
 
+            Thread.sleep(5000);
+
         } catch (InterruptedException e) {
             e.printStackTrace();
+        } finally {
+            // Close the browser
+            driver.quit();
         }
 
     }
