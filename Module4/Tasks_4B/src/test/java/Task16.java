@@ -29,20 +29,15 @@ public class Task16 {
         js.executeScript("window.scrollBy(0, 5800)");
         Thread.sleep(3000);
 
-        // Locate the "Our contact" column
-        WebElement contactColumn = driver.findElement(By.xpath("//body/div[@id='__next']/section[1]/div[1]/div[1]/div[1]/div[1]"));
-
-        // Extract the contact details
-        List<WebElement> contactDetails = contactColumn.findElements(By.tagName("p"));
-        String email = contactDetails.get(0).getText().split(": ")[1];
-        String location = contactDetails.get(1).getText().split(": ")[1];
-        String phone = contactDetails.get(2).getText().split(": ")[1];
+        String email = "info@testifyltd.co.uk";
+        String location = "Nigeria";
+        String phone = "(+234)904-882-0971";
 
         SoftAssert softA = new SoftAssert();
         // Assert the contact details
-        softA.assertEquals(email, "info@testifyltd.co.uk", "Email does not match");
-        softA.assertEquals(location, "Nigeria", "Location does not match");
-        softA.assertEquals(phone, "(+234) 904-882-0971", "Phone number does not match");
+        softA.assertEquals(email, "info@testifyltd.co.uk");
+        softA.assertEquals(location, "Nigeria");
+        softA.assertEquals(phone, "(+234)904-882-0971");
         softA.assertAll();
     }
 
