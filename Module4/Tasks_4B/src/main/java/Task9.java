@@ -13,6 +13,7 @@ public class Task9 {
         // Username field
         driver.findElement(By.xpath("//input[@id='user-name']")).click();
         driver.findElement(By.xpath("//input[@id='user-name']")).sendKeys("standard_user");
+        Thread.sleep(2000);
 
         // Password field
         driver.findElement(By.xpath("//input[@id='password']")).click();

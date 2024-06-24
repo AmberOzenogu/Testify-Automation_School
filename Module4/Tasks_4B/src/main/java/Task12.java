@@ -23,7 +23,7 @@ public class Task12 {
             WebElement resizeHandle = driver.findElement(By.xpath("//div[@id='resizable']/div[3]"));
             Actions mouse = new Actions(driver);
             mouse.clickAndHold(resizeHandle).moveByOffset(150, 150).release().perform();
-            Thread.sleep(2000);
+            Thread.sleep(3000);
         } finally {
             driver.quit();
         }

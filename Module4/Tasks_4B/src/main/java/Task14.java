@@ -17,7 +17,7 @@ public class Task14 {
         wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//button[@id='accept-cookie-policy']")));
         driver.findElement(By.xpath("//button[@id='accept-cookie-policy']")).click();
 
-        Thread.sleep(2000);
+        Thread.sleep(3000);
         driver.findElement(By.xpath("//span[contains(text(),'Tutorials')]")).click();
 
         Thread.sleep(2000);
