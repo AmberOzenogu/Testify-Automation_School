@@ -38,7 +38,7 @@ public class Task13 {
         varMonth.selectByVisibleText("January");
         varMonth.selectByVisibleText("February");
         varMonth.selectByVisibleText("March");
-        Thread.sleep(3000);
+        Thread.sleep(2000);
 
         driver.quit();
     }

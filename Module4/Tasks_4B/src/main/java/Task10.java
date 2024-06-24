@@ -17,7 +17,7 @@ public class Task10 {
         driver.switchTo().frame(driver.findElement(By.xpath("//body/div[@id='container']/div[@id='content-wrapper']/div[1]/div[1]/iframe[1]")));
         driver.findElement(By.xpath("//body[1]/div[1]/div[1]/button[1]/span[1]")).click();
 
-        Thread.sleep(2000);
+        Thread.sleep(3000);
         driver.quit();
     }
 }
