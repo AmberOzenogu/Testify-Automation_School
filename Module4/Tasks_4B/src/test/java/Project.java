@@ -333,7 +333,7 @@ public class Project {
         Thread.sleep(2000);
 
         //-Copy the flightnumber and paste into the Zipcodefield
-        /*Actions actions = new Actions(driver);
+        Actions actions = new Actions(driver);
 
         WebElement zip = driver.findElement(By.xpath("//input[@id='zipCode']"));
 
@@ -351,7 +351,7 @@ public class Project {
         Thread.sleep(2000);
         //Press CTRL "v" to paste
         actions.moveToElement(zip2).click().keyDown(Keys.CONTROL).sendKeys("v").build().perform();
-        //actions.keyUp(Keys.CONTROL).build().perform();*/
+        //actions.keyUp(Keys.CONTROL).build().perform();
 
         // -Tick the 'RememberMe' checkbox and purchase flight
         driver.findElement(By.xpath("//input[@id='rememberMe']")).click();
