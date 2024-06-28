@@ -12,7 +12,7 @@ public class Task17b {
 
     @BeforeTest
     public void openBrowser() {
-        System.setProperty("webdriver.chrome.driver", "C:\\Users\\edeno\\Desktop\\Testify\\Testify-Automation_School\\Module4\\Tasks_4B\\src\\chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver", "C:\\Users\\edeno\\Desktop\\Test\\Testify-Automation_School\\Module4\\Tasks_4B\\src\\chromedriver.exe");
         driver = new ChromeDriver();
         driver.manage().window().maximize();
     }
