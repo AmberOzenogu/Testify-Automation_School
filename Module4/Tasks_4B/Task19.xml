@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="HomePageTests" parallel="false">
+    <test name="DemoQATests">
+        <classes>
+            <class name="lesson17.HomePage"/>
+        </classes>
+    </test>
+    <test name="SauceDemoTests">
+        <classes>
+            <class name="lesson18.HomePage"/>
+        </classes>
+    </test>
+</suite>

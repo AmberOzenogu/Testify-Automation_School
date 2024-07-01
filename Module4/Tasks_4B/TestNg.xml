@@ -3,10 +3,10 @@
 <suite name="Test-Suite">
     <test name="Task 17">
         <classes>
-            <class name="Task17a" />
-            <class name="Task17b" />
-            <class name="Task17c" />
-            <class name="Task17d" />
+            <class name="lesson17.Task17a" />
+            <class name="lesson17.Task17b" />
+            <class name="lesson17.Task17c" />
+            <class name="lesson17.Task17d" />
         </classes>
     </test>
 </suite>
