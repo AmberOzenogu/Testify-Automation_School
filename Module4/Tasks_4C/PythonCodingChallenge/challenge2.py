@@ -3,7 +3,7 @@ def length_converter(meter):
     centimeter = meter * 100
     return centimeter
 
-length = 22
+length = 27
 converted_length = length_converter(length)
 
 print(f"{length} meters is equivalent to {converted_length} centimeters")
