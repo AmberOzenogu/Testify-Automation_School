@@ -15,3 +15,4 @@ def multiplication_table():
 
 # Call the function to print the table
 multiplication_table()
+
