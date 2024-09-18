@@ -11,27 +11,26 @@
         "noSign": true
 } """
 
+
 '''
 "appium:deviceName": "my_emulator",
   "platformName": "Android",
   "appium:platformVersion": "12",
-  "appium:app": "C:/Users/edeno/Downloads/Calculator_8.6 (612662282)_APKPure.apk",
-  "appium:appPackage": "com.google.android.calculator",
+  "appium:app": "C:/Users/edeno/Downloads/Android-MyDemoAppRN.1.3.0.build-244.apk",
+  "appium:appPackage": "com.saucelabs.mydemoapp.rn",
   "appium:noSign": true,
   "appium:adbExecTimeout": 60000,
   "newCommandTimeout": 120000,
   "commandTimeouts": {
     "command": 60000
   }
-  '''
-
-
+'''
 '''
   "platformName": "Android",
   "appium:options": {
     "automationName": "UiAutomator2",
     "platformVersion": "13",
-    "app": "/Users/edeno/Downloads/Calculator_8.6 (612662282)_APKPure.apk",
+    "app": "C:/Users/edeno/Downloads/Android-MyDemoAppRN.1.3.0.build-244.apk",
     "deviceName": "my_emulator",
     "noReset": true
   }
